@@ -1,0 +1,92 @@
+2026-01-06 20:25:37,817 - __main__ - INFO - ============================================================
+2026-01-06 20:25:37,818 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-06 20:25:37,819 - __main__ - INFO - ============================================================
+2026-01-06 20:25:37,819 - __main__ - INFO - [1/5] Loading raw data
+2026-01-06 20:25:37,820 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-06 20:25:37,821 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-06 20:25:37,821 - src.data_loader - INFO - Loading email data...
+2026-01-06 20:26:10,537 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-06 20:26:10,539 - src.data_loader - INFO - Loading psychometric data...
+2026-01-06 20:26:10,554 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-06 20:26:10,638 - __main__ - INFO - Users loaded: 1000
+2026-01-06 20:26:10,639 - __main__ - INFO - [2/5] Feature engineering
+2026-01-06 20:26:10,639 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-06 20:26:10,639 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-06 20:26:10,640 - src.feature_engineering - INFO - Engineering email features...
+2026-01-06 20:26:12,143 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-06 20:26:12,489 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-06 20:26:12,500 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-06 20:26:12,656 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-06 20:29:10,320 - __main__ - INFO - ============================================================
+2026-01-06 20:29:10,321 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-06 20:29:10,321 - __main__ - INFO - ============================================================
+2026-01-06 20:29:10,321 - __main__ - INFO - [1/5] Loading raw data
+2026-01-06 20:29:10,321 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-06 20:29:10,321 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-06 20:29:10,321 - src.data_loader - INFO - Loading email data...
+2026-01-06 20:29:50,515 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-06 20:29:50,532 - src.data_loader - INFO - Loading psychometric data...
+2026-01-06 20:29:50,570 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-06 20:29:50,717 - __main__ - INFO - Users loaded: 1000
+2026-01-06 20:29:50,717 - __main__ - INFO - [2/5] Feature engineering
+2026-01-06 20:29:50,718 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-06 20:29:50,719 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-06 20:29:50,719 - src.feature_engineering - INFO - Engineering email features...
+2026-01-06 20:29:55,201 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-06 20:29:55,458 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-06 20:29:55,477 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-06 20:29:55,671 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-06 20:29:59,392 - __main__ - INFO - Shape: (326985, 14)
+2026-01-06 20:29:59,392 - __main__ - INFO - [3/5] Train / validation split
+2026-01-06 20:29:59,467 - __main__ - INFO - Training samples: 228889
+2026-01-06 20:29:59,467 - __main__ - INFO - Validation samples: 98096
+2026-01-06 20:29:59,468 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-06 20:34:35,789 - __main__ - INFO - ============================================================
+2026-01-06 20:34:35,790 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-06 20:34:35,791 - __main__ - INFO - ============================================================
+2026-01-06 20:34:35,792 - __main__ - INFO - [1/5] Loading raw data
+2026-01-06 20:34:35,792 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-06 20:34:35,793 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-06 20:34:35,793 - src.data_loader - INFO - Loading email data...
+2026-01-06 20:35:12,351 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-06 20:35:12,371 - src.data_loader - INFO - Loading psychometric data...
+2026-01-06 20:35:12,440 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-06 20:35:12,621 - __main__ - INFO - Users loaded: 1000
+2026-01-06 20:35:12,622 - __main__ - INFO - [2/5] Feature engineering
+2026-01-06 20:35:12,622 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-06 20:35:12,623 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-06 20:35:12,624 - src.feature_engineering - INFO - Engineering email features...
+2026-01-06 20:35:15,835 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-06 20:35:16,184 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-06 20:35:16,211 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-06 20:35:16,433 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-06 20:35:19,976 - __main__ - INFO - Shape: (326985, 14)
+2026-01-06 20:35:19,976 - __main__ - INFO - [3/5] Train / validation split
+2026-01-06 20:35:20,061 - __main__ - INFO - Training samples: 228889
+2026-01-06 20:35:20,062 - __main__ - INFO - Validation samples: 98096
+2026-01-06 20:35:20,062 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-06 20:38:35,234 - __main__ - INFO - ============================================================
+2026-01-06 20:38:35,235 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-06 20:38:35,235 - __main__ - INFO - ============================================================
+2026-01-06 20:38:35,235 - __main__ - INFO - [1/5] Loading raw data
+2026-01-06 20:38:35,236 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-06 20:38:35,236 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-06 20:38:35,236 - src.data_loader - INFO - Loading email data...
+2026-01-06 20:39:15,776 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-06 20:39:15,784 - src.data_loader - INFO - Loading psychometric data...
+2026-01-06 20:39:15,803 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-06 20:39:15,879 - __main__ - INFO - Users loaded: 1000
+2026-01-06 20:39:15,880 - __main__ - INFO - [2/5] Feature engineering
+2026-01-06 20:39:15,880 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-06 20:39:15,880 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-06 20:39:15,881 - src.feature_engineering - INFO - Engineering email features...
+2026-01-06 20:39:18,098 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-06 20:39:18,453 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-06 20:39:18,467 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-06 20:39:18,650 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-06 20:39:21,668 - __main__ - INFO - Shape: (326985, 14)
+2026-01-06 20:39:21,669 - __main__ - INFO - [3/5] Train / validation split
+2026-01-06 20:39:21,745 - __main__ - INFO - Training samples: 228889
+2026-01-06 20:39:21,745 - __main__ - INFO - Validation samples: 98096
+2026-01-06 20:39:21,745 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-06 20:39:21,746 - src.distribution_builder - INFO - Building personal distributions...

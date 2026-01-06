@@ -1,31 +1,87 @@
-# ================================
-# Insider Threat Detection Config
-# (Email + Psychometric Only)
-# ================================
+# ==========================================
+# Insider Threat Detection Configuration
+# (Email + Psychometric Pipeline)
+# ==========================================
 
 # ----------------
-# Data Paths
+# Data paths
 # ----------------
 data:
-  raw_dir: "data/raw"
-  processed_dir: "data/processed"
-  features_dir: "data/features"
-  models_dir: "models/distributions"
+  raw_dir: data/raw
+  processed_dir: data/processed
+  features_dir: data/features
+  models_dir: models/distributions
 
   files:
-    email: "email.csv"
-    psychometric: "psychometric.csv"
+    email: email.csv
+    psychometric: psychometric.csv
 
 # ----------------
-# Feature Engineering
+# Feature engineering
 # ----------------
 features:
-  aggregation_window: "1D"   # daily aggregation
+  aggregation_window: "1D"
 
   working_hours:
     start: 6
     end: 18
 
   email_features:
-    - "email_sent_count"
-    - "email_received_count"
+    - email_sent_count
+    - email_received_count
+    - unique_recipients_count
+    - after_hours_email_count
+    - avg_email_size_kb
+
+# ----------------
+# Distribution building (CRITICAL)
+# ----------------
+distributions:
+  min_observations: 10        # 🔥 FIXES your KeyError
+  methods:
+    - gaussian
+    - percentile
+  percentiles: [5, 25, 50, 75, 95, 99]
+
+# ----------------
+# Anomaly detection
+# ----------------
+anomaly_detection:
+  z_score_threshold: 3.0
+  percentile_threshold: 95
+  alert_threshold: 0.7
+
+  fusion_weights:
+    personal: 0.6
+    peer: 0.25
+    temporal: 0.15
+
+# ----------------
+# Peer analysis (psychometric-based)
+# ----------------
+peer_groups:
+  enabled: true
+  method: psychometric_cluster
+  min_peers: 5
+
+# ----------------
+# Temporal modeling
+# ----------------
+temporal:
+  enabled: true
+  day_buckets: 7   # Mon–Sun
+
+# ----------------
+# Performance
+# ----------------
+performance:
+  n_jobs: -1
+  batch_size: 10000
+  cache_enabled: false
+
+# ----------------
+# Logging
+# ----------------
+logging:
+  level: INFO
+  file: logs/training.log

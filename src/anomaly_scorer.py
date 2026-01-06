@@ -16,7 +16,7 @@ import logging
 from typing import Dict, Optional
 from datetime import datetime
 
-from distribution_builder import DistributionBuilder
+from src.distribution_builder import DistributionBuilder
 
 logger = logging.getLogger(__name__)
 

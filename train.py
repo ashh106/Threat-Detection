@@ -110,7 +110,8 @@ def train(config: dict):
         min_observations=config["distributions"]["min_observations"]
     )
 
-    builder.build_personal(train_df)
+    builder.build_personal_distributions(train_df)
+
     builder.build_peer(train_df, raw_data["psychometric"])
     builder.build_temporal(train_df)
 
