@@ -1,0 +1,31 @@
+# ================================
+# Insider Threat Detection Config
+# (Email + Psychometric Only)
+# ================================
+
+# ----------------
+# Data Paths
+# ----------------
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  features_dir: "data/features"
+  models_dir: "models/distributions"
+
+  files:
+    email: "email.csv"
+    psychometric: "psychometric.csv"
+
+# ----------------
+# Feature Engineering
+# ----------------
+features:
+  aggregation_window: "1D"   # daily aggregation
+
+  working_hours:
+    start: 6
+    end: 18
+
+  email_features:
+    - "email_sent_count"
+    - "email_received_count"
