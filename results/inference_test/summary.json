@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-01-06T22:58:21.893238",
+  "total_observations": 326985,
+  "unique_users": 1000,
+  "high_risk_alerts": 400,
+  "severity_distribution": {
+    "MEDIUM": 322445,
+    "LOW": 4140,
+    "HIGH": 400
+  },
+  "mean_anomaly_score": 0.5863931394511328,
+  "max_anomaly_score": 0.7590798624878372,
+  "top_user": "DIB0285"
+}

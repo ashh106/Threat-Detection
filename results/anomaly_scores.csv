@@ -1,501 +1,501 @@
 user,date,anomaly_score,severity,flagged_count,top_feature,explanation
-AHM0410,2010-12-06,0.5473152557541157,MEDIUM,0,,No significant behavioral deviations detected.
-CAA0612,2010-12-06,0.6321940150634928,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
-SKG0759,2010-12-06,0.5598172969616505,MEDIUM,0,,No significant behavioral deviations detected.
-PLH0715,2010-12-06,0.5656368645447849,MEDIUM,0,,No significant behavioral deviations detected.
-SJW0451,2010-12-06,0.5412169848174408,MEDIUM,0,,No significant behavioral deviations detected.
-HGN0287,2010-12-06,0.5272977545905196,MEDIUM,0,,No significant behavioral deviations detected.
-KWE0082,2010-12-06,0.541021271183058,MEDIUM,0,,No significant behavioral deviations detected.
-GCG0951,2010-12-06,0.5650170074736683,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
-ELH0960,2010-12-06,0.5555518602101783,MEDIUM,0,,No significant behavioral deviations detected.
-JCC0225,2010-12-06,0.5905357224686678,MEDIUM,0,,No significant behavioral deviations detected.
-YDN0198,2010-12-06,0.5767789085453511,MEDIUM,0,,No significant behavioral deviations detected.
-TEM0093,2010-12-06,0.5549585797268188,MEDIUM,0,,No significant behavioral deviations detected.
-LJJ0905,2010-12-06,0.5980297101570502,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (4.8σ)
-KJS0618,2010-12-06,0.5699858261327438,MEDIUM,0,,No significant behavioral deviations detected.
-BEC0505,2010-12-06,0.558881164885423,MEDIUM,0,,No significant behavioral deviations detected.
-NJC0705,2010-12-06,0.6035740938708115,MEDIUM,0,,No significant behavioral deviations detected.
-JAV0361,2010-12-06,0.583073130313165,MEDIUM,0,,No significant behavioral deviations detected.
-BYP0070,2010-12-06,0.5607648936237649,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (10.3σ)
-ASG0692,2010-12-06,0.549267846860052,MEDIUM,0,,No significant behavioral deviations detected.
-NWT0098,2010-12-06,0.574315194309977,MEDIUM,0,,No significant behavioral deviations detected.
-MLM0950,2010-12-06,0.5564341706888045,MEDIUM,0,,No significant behavioral deviations detected.
-SBN0495,2010-12-06,0.5799892434739962,MEDIUM,0,,No significant behavioral deviations detected.
-JBM0350,2010-12-06,0.5430242140168319,MEDIUM,0,,No significant behavioral deviations detected.
-RGN0408,2010-12-06,0.5935987090860809,MEDIUM,1,after_hours_email_count,
-VSA0230,2010-12-06,0.6097985050627157,MEDIUM,0,,No significant behavioral deviations detected.
-MJS0890,2010-12-06,0.6103495839537728,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.3σ)
-MSH0040,2010-12-06,0.5929273111690628,MEDIUM,0,,No significant behavioral deviations detected.
-WIQ0567,2010-12-06,0.5734992727589814,MEDIUM,0,,No significant behavioral deviations detected.
-ELB0847,2010-12-06,0.506856704330227,MEDIUM,0,,No significant behavioral deviations detected.
-DAG0558,2010-12-06,0.5633992542058676,MEDIUM,0,,No significant behavioral deviations detected.
-GCL0016,2010-12-06,0.6363801543219892,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (95th percentile)
-CXC0336,2010-12-06,0.5624210893625006,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
-MAH0864,2010-12-06,0.5525283136296177,MEDIUM,0,,No significant behavioral deviations detected.
-KVT0028,2010-12-06,0.5781579031968639,MEDIUM,0,,No significant behavioral deviations detected.
-RHP0484,2010-12-06,0.6143866422396994,MEDIUM,0,,No significant behavioral deviations detected.
-AMJ0297,2010-12-06,0.5504993358252489,MEDIUM,0,,No significant behavioral deviations detected.
-VMJ0546,2010-12-06,0.5792169275357072,MEDIUM,1,unique_recipients_count,
-JML0909,2010-12-06,0.5449219557469521,MEDIUM,0,,No significant behavioral deviations detected.
-BMM0112,2010-12-06,0.5932731103635287,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.3σ)
-MSZ0310,2010-12-06,0.5436905496400355,MEDIUM,0,,No significant behavioral deviations detected.
-SLP0762,2010-12-06,0.5791557233223473,MEDIUM,0,,No significant behavioral deviations detected.
-GDF0704,2010-12-06,0.538047260519331,MEDIUM,0,,No significant behavioral deviations detected.
-TDJ0998,2010-12-06,0.6061718201942314,MEDIUM,0,,No significant behavioral deviations detected.
-NIH0969,2010-12-06,0.5588482953645889,MEDIUM,0,,No significant behavioral deviations detected.
-EHR0096,2010-12-06,0.5491643830370645,MEDIUM,0,,No significant behavioral deviations detected.
-UAD0771,2010-12-06,0.5963234361148105,MEDIUM,0,,No significant behavioral deviations detected.
-KVS0425,2010-12-06,0.5843999251412832,MEDIUM,0,,No significant behavioral deviations detected.
-DBG0261,2010-12-06,0.48947530092737523,LOW,0,,No significant behavioral deviations detected.
-HDS0367,2010-12-06,0.5617305326464828,MEDIUM,0,,No significant behavioral deviations detected.
-JAJ0849,2010-12-06,0.5526900144392167,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
-KAT0270,2010-12-06,0.5559809985317401,MEDIUM,0,,No significant behavioral deviations detected.
-AIM0627,2010-12-06,0.617054575607949,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
-WDD0366,2010-12-06,0.5705456543777248,MEDIUM,0,,No significant behavioral deviations detected.
-PIS0522,2010-12-06,0.5251963349546032,MEDIUM,0,,No significant behavioral deviations detected.
-CAM0681,2010-12-06,0.5867132915510347,MEDIUM,1,avg_email_size_kb,
-IAR0694,2010-12-06,0.5625754240647147,MEDIUM,0,,No significant behavioral deviations detected.
-AMH0794,2010-12-06,0.5774641254781054,MEDIUM,0,,No significant behavioral deviations detected.
-XRS0633,2010-12-06,0.5223934277054958,MEDIUM,0,,No significant behavioral deviations detected.
-RHY0079,2010-12-06,0.5757671009399759,MEDIUM,0,,No significant behavioral deviations detected.
-XWD0923,2010-12-06,0.5441984432528667,MEDIUM,0,,No significant behavioral deviations detected.
-KAT0489,2010-12-06,0.5772904646135952,MEDIUM,0,,No significant behavioral deviations detected.
-GCS0571,2010-12-06,0.5397831838695154,MEDIUM,0,,No significant behavioral deviations detected.
-OCB0805,2010-12-06,0.570240045733796,MEDIUM,0,,No significant behavioral deviations detected.
-WJD0576,2010-12-06,0.4960201588659098,LOW,0,,No significant behavioral deviations detected.
-BDI0533,2010-12-06,0.5461442253357152,MEDIUM,0,,No significant behavioral deviations detected.
-GCS0518,2010-12-06,0.515300660661556,MEDIUM,0,,No significant behavioral deviations detected.
-CRK0916,2010-12-06,0.5591424935381993,MEDIUM,0,,No significant behavioral deviations detected.
-ASL0378,2010-12-06,0.538748880753763,MEDIUM,0,,No significant behavioral deviations detected.
-EIP0997,2010-12-06,0.5563824026295972,MEDIUM,0,,No significant behavioral deviations detected.
-MSS0001,2010-12-06,0.570097715576763,MEDIUM,0,,No significant behavioral deviations detected.
-DBB0384,2010-12-06,0.5309121947961449,MEDIUM,0,,No significant behavioral deviations detected.
-TDS0984,2010-12-06,0.5498659128632533,MEDIUM,0,,No significant behavioral deviations detected.
-AIH0675,2010-12-06,0.5187619044829969,MEDIUM,0,,No significant behavioral deviations detected.
-HWW0436,2010-12-06,0.530724269970308,MEDIUM,0,,No significant behavioral deviations detected.
-MJM0510,2010-12-06,0.5042494021385804,MEDIUM,0,,No significant behavioral deviations detected.
-AIB0948,2010-12-06,0.5479505239557401,MEDIUM,0,,No significant behavioral deviations detected.
-CAB0614,2010-12-06,0.5473852934014058,MEDIUM,0,,No significant behavioral deviations detected.
-KJW0416,2010-12-06,0.5627179779737297,MEDIUM,0,,No significant behavioral deviations detected.
-SLB0049,2010-12-06,0.6004852267942066,MEDIUM,1,avg_email_size_kb,
-HFB0347,2010-12-06,0.5600524051195592,MEDIUM,0,,No significant behavioral deviations detected.
-EIM0156,2010-12-06,0.5511099329102288,MEDIUM,0,,No significant behavioral deviations detected.
-JAM0382,2010-12-06,0.5407288754781223,MEDIUM,0,,No significant behavioral deviations detected.
-FGW0853,2010-12-06,0.5186759145763145,MEDIUM,0,,No significant behavioral deviations detected.
-SBH0537,2010-12-06,0.550432349279542,MEDIUM,1,avg_email_size_kb,
-PKB0281,2010-12-06,0.5608216891037588,MEDIUM,0,,No significant behavioral deviations detected.
-LJT0817,2010-12-06,0.6052832703718749,MEDIUM,0,,No significant behavioral deviations detected.
-CKH0144,2010-12-06,0.5292204627761634,MEDIUM,0,,No significant behavioral deviations detected.
-BDB0453,2010-12-06,0.5548752809396466,MEDIUM,0,,No significant behavioral deviations detected.
-CAM0102,2010-12-06,0.5134924256929632,MEDIUM,0,,No significant behavioral deviations detected.
-RHO0732,2010-12-06,0.5446442550268588,MEDIUM,0,,No significant behavioral deviations detected.
-WKD0013,2010-12-06,0.6076978483246199,MEDIUM,0,,No significant behavioral deviations detected.
-BXJ0010,2010-12-06,0.5178020108814065,MEDIUM,0,,No significant behavioral deviations detected.
-AMR0318,2010-12-06,0.5882730429075549,MEDIUM,0,,No significant behavioral deviations detected.
-YIC0195,2010-12-06,0.5783322900183333,MEDIUM,0,,No significant behavioral deviations detected.
-SJF0094,2010-12-06,0.5358890320289251,MEDIUM,0,,No significant behavioral deviations detected.
-HJA0018,2010-12-06,0.5582062044393759,MEDIUM,0,,No significant behavioral deviations detected.
-JCR0770,2010-12-06,0.4959789660983759,LOW,0,,No significant behavioral deviations detected.
-PMV0850,2010-12-06,0.6369918644761842,MEDIUM,2,after_hours_email_count,avg_email_size_kb is rare for this day (99th percentile)
-KJJ0293,2010-12-06,0.5604992921359497,MEDIUM,0,,No significant behavioral deviations detected.
-HRB0351,2010-12-06,0.5725286431970189,MEDIUM,0,,No significant behavioral deviations detected.
-MKL0941,2010-12-06,0.5244989676863032,MEDIUM,0,,No significant behavioral deviations detected.
-TUC0632,2010-12-06,0.5448427349126583,MEDIUM,0,,No significant behavioral deviations detected.
-BTW0005,2010-12-06,0.6211803682430412,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (100th percentile)
-NUL0471,2010-12-06,0.5204337418523944,MEDIUM,0,,No significant behavioral deviations detected.
-NKH0979,2010-12-06,0.5943276752902291,MEDIUM,0,,No significant behavioral deviations detected.
-LIM0674,2010-12-06,0.5371156083388604,MEDIUM,0,,No significant behavioral deviations detected.
-QNP0216,2010-12-06,0.5471346167053538,MEDIUM,0,,No significant behavioral deviations detected.
-JCR0289,2010-12-06,0.5293086113306131,MEDIUM,0,,No significant behavioral deviations detected.
-GAF0570,2010-12-06,0.55942002915077,MEDIUM,0,,No significant behavioral deviations detected.
-ASD0577,2010-12-06,0.5328731938961916,MEDIUM,0,,No significant behavioral deviations detected.
-CLS0296,2010-12-06,0.5537576031265525,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
-JLW0053,2010-12-06,0.6017588266798197,MEDIUM,0,,No significant behavioral deviations detected.
-MPT0376,2010-12-06,0.5375889076941732,MEDIUM,0,,No significant behavioral deviations detected.
-WIF0691,2010-12-06,0.6034591157233998,MEDIUM,0,,No significant behavioral deviations detected.
-EMW0772,2010-12-06,0.5515401459996129,MEDIUM,0,,No significant behavioral deviations detected.
-AGB0643,2010-12-06,0.6100840768945708,MEDIUM,0,,No significant behavioral deviations detected.
-RDT0424,2010-12-06,0.4947391894635536,LOW,0,,No significant behavioral deviations detected.
-KJM0887,2010-12-06,0.4928984448045529,LOW,0,,No significant behavioral deviations detected.
-ENC0234,2010-12-06,0.5870724986166193,MEDIUM,0,,No significant behavioral deviations detected.
-BHC0665,2010-12-06,0.4930610595362343,LOW,0,,No significant behavioral deviations detected.
-KBG0549,2010-12-06,0.5586733346039118,MEDIUM,0,,No significant behavioral deviations detected.
-THR0873,2010-12-06,0.6187383475094855,MEDIUM,0,,No significant behavioral deviations detected.
-RDM0115,2010-12-06,0.5798958851491429,MEDIUM,0,,No significant behavioral deviations detected.
-MCT0720,2010-12-06,0.5284100043152156,MEDIUM,0,,No significant behavioral deviations detected.
-TPH0474,2010-12-06,0.5049358798735296,MEDIUM,0,,No significant behavioral deviations detected.
-JCV0245,2010-12-06,0.5204643784769515,MEDIUM,0,,No significant behavioral deviations detected.
-NSS0876,2010-12-06,0.6037045094630005,MEDIUM,0,,No significant behavioral deviations detected.
-SCB0534,2010-12-06,0.5614492571276413,MEDIUM,0,,No significant behavioral deviations detected.
-BHW0458,2010-12-06,0.5992550568628162,MEDIUM,0,,No significant behavioral deviations detected.
-JLM0364,2010-12-06,0.5410480815490881,MEDIUM,0,,No significant behavioral deviations detected.
-MAW0166,2010-12-06,0.5301152411702175,MEDIUM,0,,No significant behavioral deviations detected.
-CMB0912,2010-12-06,0.5864589436637282,MEDIUM,0,,No significant behavioral deviations detected.
-EPW0434,2010-12-06,0.5547958964162485,MEDIUM,1,unique_recipients_count,
-AGB0186,2010-12-06,0.49785307609548646,LOW,0,,No significant behavioral deviations detected.
-HVB0037,2010-12-06,0.5700036290017694,MEDIUM,0,,No significant behavioral deviations detected.
-SER0165,2010-12-06,0.5329901902862815,MEDIUM,0,,No significant behavioral deviations detected.
-ASB0796,2010-12-06,0.5750298500276925,MEDIUM,1,avg_email_size_kb,
-BTS0011,2010-12-06,0.5796803832610176,MEDIUM,0,,No significant behavioral deviations detected.
-HTH0007,2010-12-06,0.5574310509760725,MEDIUM,0,,No significant behavioral deviations detected.
-HJB0742,2010-12-06,0.568163691377192,MEDIUM,0,,No significant behavioral deviations detected.
-ENL0100,2010-12-06,0.5654925847366293,MEDIUM,0,,No significant behavioral deviations detected.
-JCR0921,2010-12-06,0.6512707782854994,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.1σ)
-AMV0036,2010-12-06,0.5879390835889532,MEDIUM,0,,No significant behavioral deviations detected.
-LAP0338,2010-12-06,0.5776123339336265,MEDIUM,0,,No significant behavioral deviations detected.
-GAF0060,2010-12-06,0.5959815926159177,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (99th percentile)
-RDM0150,2010-12-06,0.5425314852735099,MEDIUM,0,,No significant behavioral deviations detected.
-CTW0500,2010-12-06,0.5376719099861165,MEDIUM,0,,No significant behavioral deviations detected.
-SBQ0786,2010-12-06,0.5400521187259171,MEDIUM,0,,No significant behavioral deviations detected.
-PNH0761,2010-12-06,0.5348771620254914,MEDIUM,0,,No significant behavioral deviations detected.
-TVS0050,2010-12-06,0.5857241098251602,MEDIUM,0,,No significant behavioral deviations detected.
-THD0448,2010-12-06,0.49137265652943996,LOW,0,,No significant behavioral deviations detected.
-CUD0795,2010-12-06,0.5520901554530532,MEDIUM,0,,No significant behavioral deviations detected.
-FEB0306,2010-12-06,0.5832132155888556,MEDIUM,0,,No significant behavioral deviations detected.
-ASG0048,2010-12-06,0.5543371730298159,MEDIUM,0,,No significant behavioral deviations detected.
-EMB0531,2010-12-06,0.5202866236472701,MEDIUM,0,,No significant behavioral deviations detected.
-JMC0925,2010-12-06,0.5970277550423841,MEDIUM,0,,No significant behavioral deviations detected.
-BWP0202,2010-12-06,0.536879165559725,MEDIUM,0,,No significant behavioral deviations detected.
-HVF0067,2010-12-06,0.5445785756271493,MEDIUM,0,,No significant behavioral deviations detected.
-CWR0502,2010-12-06,0.5713406262383124,MEDIUM,0,,No significant behavioral deviations detected.
-WBC0315,2010-12-06,0.6181873815583938,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
-SBN0866,2010-12-06,0.5131976866339246,MEDIUM,0,,No significant behavioral deviations detected.
-HIA0414,2010-12-06,0.5654863208311791,MEDIUM,0,,No significant behavioral deviations detected.
-CLF0852,2010-12-06,0.6150155762019515,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
-YEV0793,2010-12-06,0.5500626565626974,MEDIUM,0,,No significant behavioral deviations detected.
-JCG0316,2010-12-06,0.5865591507271607,MEDIUM,0,,No significant behavioral deviations detected.
-GCC0945,2010-12-06,0.5168112217662391,MEDIUM,0,,No significant behavioral deviations detected.
-ELT0769,2010-12-06,0.5559235629612216,MEDIUM,0,,No significant behavioral deviations detected.
-TEM0977,2010-12-06,0.6384530466687336,MEDIUM,1,after_hours_email_count,
-MAR0955,2010-12-06,0.5332341309370403,MEDIUM,0,,No significant behavioral deviations detected.
-BEH0615,2010-12-06,0.6178237399254953,MEDIUM,1,avg_email_size_kb,
-MSG0839,2010-12-06,0.6385175704247693,MEDIUM,0,,No significant behavioral deviations detected.
-AHD0848,2010-12-06,0.518094312978304,MEDIUM,0,,No significant behavioral deviations detected.
-KBB0189,2010-12-06,0.5231758164557327,MEDIUM,0,,No significant behavioral deviations detected.
-RGH0728,2010-12-06,0.6031880244403017,MEDIUM,0,,No significant behavioral deviations detected.
-PLH0862,2010-12-06,0.5530997913205795,MEDIUM,0,,No significant behavioral deviations detected.
-JMD0520,2010-12-06,0.5448609137958711,MEDIUM,0,,No significant behavioral deviations detected.
-HWH0646,2010-12-06,0.513323424284183,MEDIUM,0,,No significant behavioral deviations detected.
-PMC0328,2010-12-06,0.5928259255122853,MEDIUM,2,unique_recipients_count,unique_recipients_count deviates strongly from user's baseline (4.0σ); avg_email_size_kb is rare for this day (97th percentile)
-BWH0813,2010-12-06,0.5519872296404124,MEDIUM,0,,No significant behavioral deviations detected.
-MKG0711,2010-12-06,0.5909646206668775,MEDIUM,0,,No significant behavioral deviations detected.
-NKH0807,2010-12-06,0.5973328581550837,MEDIUM,1,avg_email_size_kb,
-BMG0917,2010-12-06,0.5303808932169153,MEDIUM,0,,No significant behavioral deviations detected.
-SBN0971,2010-12-06,0.5200584999716019,MEDIUM,0,,No significant behavioral deviations detected.
-EMW0105,2010-12-06,0.5848954291917069,MEDIUM,0,,No significant behavioral deviations detected.
-LAM0911,2010-12-06,0.5608819416115041,MEDIUM,0,,No significant behavioral deviations detected.
-HIW0536,2010-12-06,0.5955589678707853,MEDIUM,0,,No significant behavioral deviations detected.
-BER0314,2010-12-06,0.5405291461002584,MEDIUM,0,,No significant behavioral deviations detected.
-BVC0790,2010-12-06,0.5973423715402917,MEDIUM,1,avg_email_size_kb,
-KBC0054,2010-12-06,0.5859206207724157,MEDIUM,0,,No significant behavioral deviations detected.
-PMJ0564,2010-12-06,0.5246487924052445,MEDIUM,0,,No significant behavioral deviations detected.
-AHC0142,2010-12-06,0.5416174122773321,MEDIUM,0,,No significant behavioral deviations detected.
-RFP0380,2010-12-06,0.5193091119825642,MEDIUM,0,,No significant behavioral deviations detected.
-MDH0580,2010-12-06,0.5948921248943912,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.5σ)
-GBM0603,2010-12-06,0.5568342854520429,MEDIUM,0,,No significant behavioral deviations detected.
-AMR0400,2010-12-06,0.5602636160127549,MEDIUM,0,,No significant behavioral deviations detected.
-TVS0006,2010-12-06,0.610913092953392,MEDIUM,0,,No significant behavioral deviations detected.
-TET0621,2010-12-06,0.5899442601684994,MEDIUM,0,,No significant behavioral deviations detected.
-GCC0744,2010-12-06,0.5562304707371613,MEDIUM,0,,No significant behavioral deviations detected.
-SJO0209,2010-12-06,0.5526740934631545,MEDIUM,0,,No significant behavioral deviations detected.
-CWB0065,2010-12-06,0.5384471205243161,MEDIUM,0,,No significant behavioral deviations detected.
-EMS0317,2010-12-06,0.5783236420194549,MEDIUM,0,,No significant behavioral deviations detected.
-MSD0939,2010-12-06,0.5921483538812475,MEDIUM,1,unique_recipients_count,
-KJP0371,2010-12-06,0.5538320990561154,MEDIUM,0,,No significant behavioral deviations detected.
-ABH0663,2010-12-06,0.5591477329912615,MEDIUM,0,,No significant behavioral deviations detected.
-LAF0991,2010-12-06,0.5531994443563677,MEDIUM,0,,No significant behavioral deviations detected.
-LJB0826,2010-12-06,0.5691399367966687,MEDIUM,0,,No significant behavioral deviations detected.
-NWK0215,2010-12-06,0.5318326453238165,MEDIUM,0,,No significant behavioral deviations detected.
-JCR0172,2010-12-06,0.6284664199310658,MEDIUM,0,,No significant behavioral deviations detected.
-PAD0773,2010-12-06,0.5610672022700562,MEDIUM,0,,No significant behavioral deviations detected.
-DKB0631,2010-12-06,0.5793625073962085,MEDIUM,0,,No significant behavioral deviations detected.
-LRW0970,2010-12-06,0.5581815171162887,MEDIUM,0,,No significant behavioral deviations detected.
-AJP0723,2010-12-06,0.5373557760161393,MEDIUM,0,,No significant behavioral deviations detected.
-NCH0179,2010-12-06,0.6120448210612229,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (97th percentile)
-ATF0274,2010-12-06,0.5473521600686226,MEDIUM,0,,No significant behavioral deviations detected.
-ATP0662,2010-12-06,0.5750829117618312,MEDIUM,1,avg_email_size_kb,
-BAJ0654,2010-12-06,0.5488742208010117,MEDIUM,0,,No significant behavioral deviations detected.
-HBO0413,2010-12-06,0.5140398150610838,MEDIUM,0,,No significant behavioral deviations detected.
-SSG0250,2010-12-06,0.5489514660980821,MEDIUM,0,,No significant behavioral deviations detected.
-HPR0585,2010-12-06,0.597875949081337,MEDIUM,0,,No significant behavioral deviations detected.
-AKF0709,2010-12-06,0.5128135751853587,MEDIUM,0,,No significant behavioral deviations detected.
-MLL0598,2010-12-06,0.5075318822660766,MEDIUM,0,,No significant behavioral deviations detected.
-NBH0256,2010-12-06,0.5163770230208609,MEDIUM,0,,No significant behavioral deviations detected.
-RNP0211,2010-12-06,0.5767774369986745,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (96th percentile)
-SSJ0784,2010-12-06,0.5690870463512222,MEDIUM,0,,No significant behavioral deviations detected.
-DJB0159,2010-12-06,0.6024004710108148,MEDIUM,0,,No significant behavioral deviations detected.
-AKC0924,2010-12-06,0.5593878723361934,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (99th percentile)
-LTS0860,2010-12-06,0.5926830287641172,MEDIUM,0,,No significant behavioral deviations detected.
-NBC0412,2010-12-06,0.6173844959989632,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (8.7σ)
-WPR0368,2010-12-06,0.5953810780816856,MEDIUM,0,,No significant behavioral deviations detected.
-HAM0985,2010-12-06,0.5140186856738549,MEDIUM,0,,No significant behavioral deviations detected.
-SOB0586,2010-12-06,0.5008769905927064,MEDIUM,0,,No significant behavioral deviations detected.
-ROB0272,2010-12-06,0.538563515705037,MEDIUM,0,,No significant behavioral deviations detected.
-CGA0629,2010-12-06,0.6025118765477584,MEDIUM,2,unique_recipients_count,unique_recipients_count is rare for this day (97th percentile)
-KPP0452,2010-12-06,0.5450050295844627,MEDIUM,0,,No significant behavioral deviations detected.
-MHG0733,2010-12-06,0.6120050042387261,MEDIUM,0,,No significant behavioral deviations detected.
-DPM0423,2010-12-06,0.511205549278659,MEDIUM,0,,No significant behavioral deviations detected.
-HAH0760,2010-12-06,0.515948729466478,MEDIUM,0,,No significant behavioral deviations detected.
-DMM0623,2010-12-06,0.5714253693887725,MEDIUM,0,,No significant behavioral deviations detected.
-OMM0944,2010-12-06,0.5237407104653583,MEDIUM,0,,No significant behavioral deviations detected.
-RVF0201,2010-12-06,0.5536860399939421,MEDIUM,0,,No significant behavioral deviations detected.
-LPC0492,2010-12-06,0.5621370996131405,MEDIUM,0,,No significant behavioral deviations detected.
-AAW0353,2010-12-06,0.576272079122608,MEDIUM,0,,No significant behavioral deviations detected.
-RUM0880,2010-12-06,0.5294874474710672,MEDIUM,0,,No significant behavioral deviations detected.
-SNS0129,2010-12-06,0.5420194129964725,MEDIUM,0,,No significant behavioral deviations detected.
-WSR0241,2010-12-06,0.5614753668927348,MEDIUM,0,,No significant behavioral deviations detected.
-HCL0651,2010-12-06,0.524622173352421,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (97th percentile)
-CEJ0109,2010-12-06,0.5474443551934776,MEDIUM,0,,No significant behavioral deviations detected.
-JRL0574,2010-12-06,0.561253695900076,MEDIUM,0,,No significant behavioral deviations detected.
-AKK0329,2010-12-06,0.5811891115497996,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (96th percentile)
-RSC0089,2010-12-06,0.5426466991135394,MEDIUM,0,,No significant behavioral deviations detected.
-JJB0700,2010-12-06,0.5481596177640233,MEDIUM,0,,No significant behavioral deviations detected.
-IKP0472,2010-12-06,0.5791458490222233,MEDIUM,0,,No significant behavioral deviations detected.
-CHM0821,2010-12-06,0.5238918972851705,MEDIUM,0,,No significant behavioral deviations detected.
-ILC0838,2010-12-06,0.5621300672510385,MEDIUM,0,,No significant behavioral deviations detected.
-JSH0330,2010-12-06,0.5383491980648027,MEDIUM,0,,No significant behavioral deviations detected.
-RTO0313,2010-12-06,0.6102861748266237,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
-KMS0657,2010-12-06,0.5456808622704143,MEDIUM,0,,No significant behavioral deviations detected.
-SOG0411,2010-12-06,0.5423868105093573,MEDIUM,1,unique_recipients_count,
-NCE0097,2010-12-06,0.5203177061595068,MEDIUM,0,,No significant behavioral deviations detected.
-JSA0775,2010-12-06,0.5603867426042755,MEDIUM,0,,No significant behavioral deviations detected.
-HAV0121,2010-12-06,0.5176423392741417,MEDIUM,0,,No significant behavioral deviations detected.
-WVB0539,2010-12-06,0.591023044970672,MEDIUM,0,,No significant behavioral deviations detected.
-DHM0937,2010-12-06,0.5728615754537051,MEDIUM,0,,No significant behavioral deviations detected.
-HBB0056,2010-12-06,0.5717602857879803,MEDIUM,1,unique_recipients_count,
-IIW0249,2010-12-06,0.5287444355304848,MEDIUM,0,,No significant behavioral deviations detected.
-DIW0118,2010-12-06,0.556562893354203,MEDIUM,0,,No significant behavioral deviations detected.
-OQH0183,2010-12-06,0.5361724538564658,MEDIUM,0,,No significant behavioral deviations detected.
-KNW0644,2010-12-06,0.5345005436767278,MEDIUM,0,,No significant behavioral deviations detected.
-KNG0672,2010-12-06,0.5402402948773487,MEDIUM,0,,No significant behavioral deviations detected.
-KPR0497,2010-12-06,0.6012383047154198,MEDIUM,0,,No significant behavioral deviations detected.
-LRR0148,2010-12-06,0.5514262913900942,MEDIUM,0,,No significant behavioral deviations detected.
-CFG0959,2010-12-06,0.5622667530184497,MEDIUM,0,,No significant behavioral deviations detected.
-IHK0841,2010-12-06,0.5868216515787014,MEDIUM,1,after_hours_email_count,
-ORG0339,2010-12-06,0.6057473804740823,MEDIUM,0,,No significant behavioral deviations detected.
-DLS0383,2010-12-06,0.538857615749334,MEDIUM,0,,No significant behavioral deviations detected.
-DID0650,2010-12-06,0.595889474493729,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
-ABC0253,2010-12-06,0.5274509802524868,MEDIUM,0,,No significant behavioral deviations detected.
-LQP0508,2010-12-06,0.5125541371346286,MEDIUM,0,,No significant behavioral deviations detected.
-VCC0396,2010-12-06,0.5606830597259498,MEDIUM,1,avg_email_size_kb,
-IJM0139,2010-12-06,0.5249997797336877,MEDIUM,0,,No significant behavioral deviations detected.
-AJN0607,2010-12-06,0.6146821180623699,MEDIUM,0,,No significant behavioral deviations detected.
-MHA0798,2010-12-06,0.5630600416591723,MEDIUM,0,,No significant behavioral deviations detected.
-AVM0947,2010-12-06,0.5487304629327208,MEDIUM,0,,No significant behavioral deviations detected.
-IIA0092,2010-12-06,0.5567960676915567,MEDIUM,0,,No significant behavioral deviations detected.
-SRH0155,2010-12-06,0.5600105934243865,MEDIUM,0,,No significant behavioral deviations detected.
-JRS0362,2010-12-06,0.5740846086386183,MEDIUM,0,,No significant behavioral deviations detected.
-JRG0207,2010-12-06,0.5890434179012546,MEDIUM,0,,No significant behavioral deviations detected.
-DLH0029,2010-12-06,0.528315087282911,MEDIUM,0,,No significant behavioral deviations detected.
-HAC0282,2010-12-06,0.5043028074467086,MEDIUM,0,,No significant behavioral deviations detected.
-CGB0637,2010-12-06,0.5418125614345046,MEDIUM,0,,No significant behavioral deviations detected.
-VAA0087,2010-12-06,0.5312862322557547,MEDIUM,0,,No significant behavioral deviations detected.
-SRS0231,2010-12-06,0.5898492427944418,MEDIUM,0,,No significant behavioral deviations detected.
-NAR0981,2010-12-06,0.5406775329293043,MEDIUM,0,,No significant behavioral deviations detected.
-OYM0026,2010-12-06,0.5217648550048806,MEDIUM,0,,No significant behavioral deviations detected.
-WTR0563,2010-12-06,0.6001951990132064,MEDIUM,0,,No significant behavioral deviations detected.
-DMK0257,2010-12-06,0.5457188253544648,MEDIUM,0,,No significant behavioral deviations detected.
-VCY0751,2010-12-06,0.555859433523867,MEDIUM,0,,No significant behavioral deviations detected.
-USH0199,2010-12-06,0.5196502865807324,MEDIUM,0,,No significant behavioral deviations detected.
-DLF0377,2010-12-06,0.5582917525075762,MEDIUM,0,,No significant behavioral deviations detected.
-MGS0974,2010-12-06,0.5625436656113739,MEDIUM,0,,No significant behavioral deviations detected.
-DJS0682,2010-12-06,0.5119303278679972,MEDIUM,0,,No significant behavioral deviations detected.
-DOL0332,2010-12-06,0.5387920428879893,MEDIUM,0,,No significant behavioral deviations detected.
-HAD0246,2010-12-06,0.6024812508975947,MEDIUM,0,,No significant behavioral deviations detected.
-VEB0935,2010-12-06,0.5310668528620676,MEDIUM,0,,No significant behavioral deviations detected.
-AAV0450,2010-12-06,0.5303519407784073,MEDIUM,0,,No significant behavioral deviations detected.
-ALD0529,2010-12-06,0.5235471656909579,MEDIUM,0,,No significant behavioral deviations detected.
-HCC0344,2010-12-06,0.6030712578967682,MEDIUM,1,after_hours_email_count,
-NAH0503,2010-12-06,0.5709194213700608,MEDIUM,0,,No significant behavioral deviations detected.
-SES0477,2010-12-06,0.6245232116372071,MEDIUM,0,,No significant behavioral deviations detected.
-NCK0421,2010-12-06,0.5606415713667439,MEDIUM,0,,No significant behavioral deviations detected.
-CJF0802,2010-12-06,0.567959757800135,MEDIUM,0,,No significant behavioral deviations detected.
-JRF0835,2010-12-06,0.5471226541583967,MEDIUM,0,,No significant behavioral deviations detected.
-AKW0167,2010-12-06,0.5571469180205966,MEDIUM,0,,No significant behavioral deviations detected.
-UJC0737,2010-12-06,0.5614073373966397,MEDIUM,0,,No significant behavioral deviations detected.
-SAA0999,2010-12-06,0.5655671902826686,MEDIUM,0,,No significant behavioral deviations detected.
-GTD0898,2010-12-06,0.5276671369455237,MEDIUM,0,,No significant behavioral deviations detected.
-FHO0630,2010-12-06,0.5799128478199644,MEDIUM,0,,No significant behavioral deviations detected.
-SPA0141,2010-12-06,0.5751458330949283,MEDIUM,0,,No significant behavioral deviations detected.
-AKH0758,2010-12-06,0.5606899437060623,MEDIUM,0,,No significant behavioral deviations detected.
-CQH0730,2010-12-06,0.5901900237080138,MEDIUM,0,,No significant behavioral deviations detected.
-IEB0153,2010-12-06,0.5042401930919406,MEDIUM,0,,No significant behavioral deviations detected.
-RSM0277,2010-12-06,0.5196427331696639,MEDIUM,0,,No significant behavioral deviations detected.
-NDM0417,2010-12-06,0.6259838980262351,MEDIUM,2,unique_recipients_count,
-OLW0689,2010-12-06,0.6255167827235903,MEDIUM,2,unique_recipients_count,after_hours_email_count is rare for this day (98th percentile)
-DOP0562,2010-12-06,0.6526459974476607,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (95th percentile)
-DMG0358,2010-12-06,0.5859747060634772,MEDIUM,0,,No significant behavioral deviations detected.
-AJR0319,2010-12-06,0.5533899852610471,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
-KQS0415,2010-12-06,0.5538504788417267,MEDIUM,0,,No significant behavioral deviations detected.
-GZC0735,2010-12-06,0.5733245256679768,MEDIUM,0,,No significant behavioral deviations detected.
-CEB0210,2010-12-06,0.6242037451577354,MEDIUM,1,avg_email_size_kb,
-QPM0727,2010-12-06,0.6079983496435681,MEDIUM,0,,No significant behavioral deviations detected.
-ILH0958,2010-12-06,0.5827569111985407,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
-CCW0524,2010-12-06,0.501402406003221,MEDIUM,0,,No significant behavioral deviations detected.
-IJR0825,2010-12-06,0.5874998703058282,MEDIUM,0,,No significant behavioral deviations detected.
-NCO0666,2010-12-06,0.5395973653517545,MEDIUM,0,,No significant behavioral deviations detected.
-BAH0875,2010-12-06,0.5560131949409425,MEDIUM,0,,No significant behavioral deviations detected.
-CJC0494,2010-12-06,0.6280842302947466,MEDIUM,1,avg_email_size_kb,
-ZJS0269,2010-12-06,0.5142969556373196,MEDIUM,0,,No significant behavioral deviations detected.
-WTF0387,2010-12-06,0.5681938342954401,MEDIUM,0,,No significant behavioral deviations detected.
-NCK0295,2010-12-06,0.5221906630009318,MEDIUM,0,,No significant behavioral deviations detected.
-IJW0851,2010-12-06,0.5455493219289801,MEDIUM,0,,No significant behavioral deviations detected.
-BAL0044,2010-12-06,0.5138333981103201,MEDIUM,0,,No significant behavioral deviations detected.
-KQC0708,2010-12-06,0.5412141527839175,MEDIUM,0,,No significant behavioral deviations detected.
-WPE0538,2010-12-06,0.47762412889458705,LOW,0,,No significant behavioral deviations detected.
-OMS0101,2010-12-06,0.5198257469050407,MEDIUM,0,,No significant behavioral deviations detected.
-SSH0799,2010-12-06,0.5861559858671869,MEDIUM,0,,No significant behavioral deviations detected.
-IJM0444,2010-12-06,0.5221187534971856,MEDIUM,0,,No significant behavioral deviations detected.
-CIM0271,2010-12-06,0.5851209669607378,MEDIUM,0,,No significant behavioral deviations detected.
-CHG0146,2010-12-06,0.5477520786737813,MEDIUM,0,,No significant behavioral deviations detected.
-BAK0964,2010-12-06,0.5668706567699096,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
-MCF0327,2010-12-06,0.5654103138333535,MEDIUM,0,,No significant behavioral deviations detected.
-CEL0561,2010-12-06,0.6218382328515679,MEDIUM,0,,No significant behavioral deviations detected.
-DLM0051,2010-12-06,0.5568321947469894,MEDIUM,0,,No significant behavioral deviations detected.
-OSH0655,2010-12-06,0.626572427725675,MEDIUM,0,,No significant behavioral deviations detected.
-ZSK0258,2010-12-06,0.5396139912337625,MEDIUM,0,,No significant behavioral deviations detected.
-AWM0764,2010-12-06,0.5604834102240469,MEDIUM,0,,No significant behavioral deviations detected.
-DIC0988,2010-12-06,0.5305042548729422,MEDIUM,0,,No significant behavioral deviations detected.
-MHG0244,2010-12-06,0.6110810174660012,MEDIUM,1,avg_email_size_kb,
-SOF0808,2010-12-06,0.6169225962513796,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (99th percentile)
-CGF0337,2010-12-06,0.5672868527910109,MEDIUM,0,,No significant behavioral deviations detected.
-ORM0669,2010-12-06,0.5946924635844927,MEDIUM,1,unique_recipients_count,
-BLL0929,2010-12-06,0.5316769278809904,MEDIUM,0,,No significant behavioral deviations detected.
-ONL0276,2010-12-06,0.5617045569827407,MEDIUM,0,,No significant behavioral deviations detected.
-KNB0022,2010-12-06,0.5763681316913969,MEDIUM,0,,No significant behavioral deviations detected.
-KMW0545,2010-12-06,0.5221628514881301,MEDIUM,0,,No significant behavioral deviations detected.
-JTS0389,2010-12-06,0.5716496312424396,MEDIUM,0,,No significant behavioral deviations detected.
-ONW0083,2010-12-06,0.5631961027067818,MEDIUM,0,,No significant behavioral deviations detected.
-RZC0746,2010-12-06,0.5476765477680676,MEDIUM,0,,No significant behavioral deviations detected.
-IIL0513,2010-12-06,0.5347409251646102,MEDIUM,0,,No significant behavioral deviations detected.
-MFV0897,2010-12-06,0.5441336042748426,MEDIUM,0,,No significant behavioral deviations detected.
-CIG0052,2010-12-06,0.601183049092797,MEDIUM,1,avg_email_size_kb,
-GZB0469,2010-12-06,0.5873555982346919,MEDIUM,0,,No significant behavioral deviations detected.
-RRA0938,2010-12-06,0.5123387842978182,MEDIUM,0,,No significant behavioral deviations detected.
-CFM0767,2010-12-06,0.5600947194177303,MEDIUM,0,,No significant behavioral deviations detected.
-HAH0248,2010-12-06,0.5592546847846882,MEDIUM,0,,No significant behavioral deviations detected.
-IKR0401,2010-12-06,0.5595984375768562,MEDIUM,0,,No significant behavioral deviations detected.
-RYB0718,2010-12-06,0.5249494841504196,MEDIUM,0,,No significant behavioral deviations detected.
-DGW0752,2010-12-06,0.5550886024275006,MEDIUM,0,,No significant behavioral deviations detected.
-ORB0473,2010-12-06,0.5826321230833292,MEDIUM,0,,No significant behavioral deviations detected.
-RRP0568,2010-12-06,0.5746905159984127,MEDIUM,0,,No significant behavioral deviations detected.
-ALC0788,2010-12-06,0.549526148104999,MEDIUM,0,,No significant behavioral deviations detected.
-RVC0232,2010-12-06,0.5325778045945997,MEDIUM,0,,No significant behavioral deviations detected.
-HCL0113,2010-12-06,0.6851413555329937,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (5.8σ)
-ABH0663,2010-12-07,0.5567040438786893,MEDIUM,0,,No significant behavioral deviations detected.
-HIW0536,2010-12-07,0.5440629300894201,MEDIUM,0,,No significant behavioral deviations detected.
-BMG0917,2010-12-07,0.5278350054729161,MEDIUM,0,,No significant behavioral deviations detected.
-PEV0323,2010-12-07,0.5628371596708219,MEDIUM,0,,No significant behavioral deviations detected.
-CFM0767,2010-12-07,0.5576983900216979,MEDIUM,0,,No significant behavioral deviations detected.
-LQP0508,2010-12-07,0.5049083615520773,MEDIUM,0,,No significant behavioral deviations detected.
-GNS0178,2010-12-07,0.5619140746332377,MEDIUM,0,,No significant behavioral deviations detected.
-CQW0652,2010-12-07,0.6244633678025042,MEDIUM,0,,No significant behavioral deviations detected.
-WBC0315,2010-12-07,0.5489234787775914,MEDIUM,0,,No significant behavioral deviations detected.
-SBN0866,2010-12-07,0.5223752889091855,MEDIUM,0,,No significant behavioral deviations detected.
-HCL0651,2010-12-07,0.4829910649521799,LOW,0,,No significant behavioral deviations detected.
-BVC0790,2010-12-07,0.5669947271075946,MEDIUM,0,,No significant behavioral deviations detected.
-BER0314,2010-12-07,0.577791841454302,MEDIUM,0,,No significant behavioral deviations detected.
-YEV0793,2010-12-07,0.5299258922642511,MEDIUM,0,,No significant behavioral deviations detected.
-LAM0911,2010-12-07,0.566024017361568,MEDIUM,1,avg_email_size_kb,
-MSD0939,2010-12-07,0.5828478180745547,MEDIUM,0,,No significant behavioral deviations detected.
-CUD0795,2010-12-07,0.544330839747046,MEDIUM,0,,No significant behavioral deviations detected.
-OMS0101,2010-12-07,0.5289281883837108,MEDIUM,0,,No significant behavioral deviations detected.
-IBP0883,2010-12-07,0.5674850362075549,MEDIUM,0,,No significant behavioral deviations detected.
-CLF0852,2010-12-07,0.5385815285037961,MEDIUM,0,,No significant behavioral deviations detected.
-HDD0806,2010-12-07,0.5385815285037961,MEDIUM,0,,No significant behavioral deviations detected.
-NAB0801,2010-12-07,0.5403851183233895,MEDIUM,0,,No significant behavioral deviations detected.
-SBN0971,2010-12-07,0.5,MEDIUM,0,,No significant behavioral deviations detected.
-AAW0353,2010-12-07,0.5259264366592139,MEDIUM,0,,No significant behavioral deviations detected.
-DLS0383,2010-12-07,0.5771794197540971,MEDIUM,0,,No significant behavioral deviations detected.
-EMW0105,2010-12-07,0.5672354314116614,MEDIUM,1,avg_email_size_kb,avg_email_size_kb deviates strongly from user's baseline (3.3σ)
-QRM0739,2010-12-07,0.5735333537902809,MEDIUM,0,,No significant behavioral deviations detected.
-KRV0372,2010-12-07,0.5073143268804936,MEDIUM,0,,No significant behavioral deviations detected.
-CJF0802,2010-12-07,0.5632608814868464,MEDIUM,0,,No significant behavioral deviations detected.
-HIA0414,2010-12-07,0.5444177378140351,MEDIUM,0,,No significant behavioral deviations detected.
-VLB0647,2010-12-07,0.5619664314646495,MEDIUM,0,,No significant behavioral deviations detected.
-LJB0826,2010-12-07,0.5788227695010425,MEDIUM,1,avg_email_size_kb,
-LAF0991,2010-12-07,0.5847324482899496,MEDIUM,0,,No significant behavioral deviations detected.
-BAL0044,2010-12-07,0.519753439982814,MEDIUM,0,,No significant behavioral deviations detected.
-TET0621,2010-12-07,0.5290935142937686,MEDIUM,0,,No significant behavioral deviations detected.
-FEB0306,2010-12-07,0.6110867024068333,MEDIUM,1,unique_recipients_count,
-AMR0400,2010-12-07,0.5200935149292453,MEDIUM,0,,No significant behavioral deviations detected.
-EMB0531,2010-12-07,0.5643286279807841,MEDIUM,0,,No significant behavioral deviations detected.
-GZB0469,2010-12-07,0.519290764251898,MEDIUM,0,,No significant behavioral deviations detected.
-ASG0048,2010-12-07,0.47472372250715644,LOW,0,,No significant behavioral deviations detected.
-SJO0209,2010-12-07,0.5376547768105878,MEDIUM,0,,No significant behavioral deviations detected.
-JCR0172,2010-12-07,0.5641979392422238,MEDIUM,0,,No significant behavioral deviations detected.
-WPR0368,2010-12-07,0.5282711619100255,MEDIUM,0,,No significant behavioral deviations detected.
-NGO0690,2010-12-07,0.5842725850979835,MEDIUM,0,,No significant behavioral deviations detected.
-NKH0807,2010-12-07,0.5318939231159877,MEDIUM,0,,No significant behavioral deviations detected.
-PMC0328,2010-12-07,0.5144495529136487,MEDIUM,0,,No significant behavioral deviations detected.
-UCS0227,2010-12-07,0.5174780520322215,MEDIUM,0,,No significant behavioral deviations detected.
-IKR0401,2010-12-07,0.6244533995381134,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.8σ)
-KKW0879,2010-12-07,0.5726708824423798,MEDIUM,0,,No significant behavioral deviations detected.
-NBH0256,2010-12-07,0.5137403095080401,MEDIUM,0,,No significant behavioral deviations detected.
-BAJ0654,2010-12-07,0.551134148596631,MEDIUM,0,,No significant behavioral deviations detected.
-MKG0711,2010-12-07,0.5385815285037961,MEDIUM,0,,No significant behavioral deviations detected.
-SAH0599,2010-12-07,0.5388025277761737,MEDIUM,0,,No significant behavioral deviations detected.
-TVS0006,2010-12-07,0.5724247571453214,MEDIUM,0,,No significant behavioral deviations detected.
-RYB0718,2010-12-07,0.5464218578983767,MEDIUM,0,,No significant behavioral deviations detected.
-JMC0925,2010-12-07,0.5777374355327053,MEDIUM,0,,No significant behavioral deviations detected.
-AJD0074,2010-12-07,0.5710839722864985,MEDIUM,0,,No significant behavioral deviations detected.
-KJP0371,2010-12-07,0.5687074220779083,MEDIUM,0,,No significant behavioral deviations detected.
-WVB0539,2010-12-07,0.5832105141755582,MEDIUM,0,,No significant behavioral deviations detected.
-WLV0566,2010-12-07,0.5201330245195749,MEDIUM,0,,No significant behavioral deviations detected.
-BWH0813,2010-12-07,0.4815959510535248,LOW,0,,No significant behavioral deviations detected.
-CWR0502,2010-12-07,0.541798685004587,MEDIUM,0,,No significant behavioral deviations detected.
-ZKS0899,2010-12-07,0.6275566750252976,MEDIUM,0,,No significant behavioral deviations detected.
-EMS0317,2010-12-07,0.5802666538572396,MEDIUM,0,,No significant behavioral deviations detected.
-CWB0065,2010-12-07,0.5034290483448889,MEDIUM,0,,No significant behavioral deviations detected.
-HVF0067,2010-12-07,0.5608544579346083,MEDIUM,0,,No significant behavioral deviations detected.
-PMJ0564,2010-12-07,0.5217202807163137,MEDIUM,0,,No significant behavioral deviations detected.
-KBC0054,2010-12-07,0.5247628299473789,MEDIUM,0,,No significant behavioral deviations detected.
-CLH0703,2010-12-07,0.5454355643264511,MEDIUM,0,,No significant behavioral deviations detected.
-DZC0228,2010-12-07,0.5540207889326133,MEDIUM,0,,No significant behavioral deviations detected.
-NWK0215,2010-12-07,0.5,MEDIUM,0,,No significant behavioral deviations detected.
-AHC0142,2010-12-07,0.5482957148606803,MEDIUM,0,,No significant behavioral deviations detected.
-CCH0182,2010-12-07,0.562450320642103,MEDIUM,0,,No significant behavioral deviations detected.
-RFP0380,2010-12-07,0.534726298009591,MEDIUM,0,,No significant behavioral deviations detected.
-KPP0452,2010-12-07,0.5850951574523794,MEDIUM,0,,No significant behavioral deviations detected.
-GCC0744,2010-12-07,0.5867563100657118,MEDIUM,0,,No significant behavioral deviations detected.
-ZSL0305,2010-12-07,0.5217448186012517,MEDIUM,0,,No significant behavioral deviations detected.
-IRM0931,2010-12-07,0.5300831372885223,MEDIUM,0,,No significant behavioral deviations detected.
-BWP0202,2010-12-07,0.5249650999219362,MEDIUM,0,,No significant behavioral deviations detected.
-NCK0421,2010-12-07,0.5650889250549488,MEDIUM,0,,No significant behavioral deviations detected.
-MDH0580,2010-12-07,0.5704928515611813,MEDIUM,0,,No significant behavioral deviations detected.
-MFV0897,2010-12-07,0.5332710978652079,MEDIUM,0,,No significant behavioral deviations detected.
-THD0448,2010-12-07,0.5251138747770359,MEDIUM,0,,No significant behavioral deviations detected.
-JCV0245,2010-12-07,0.5415316301733578,MEDIUM,0,,No significant behavioral deviations detected.
-KRM0541,2010-12-07,0.5484432193788187,MEDIUM,0,,No significant behavioral deviations detected.
-TPH0474,2010-12-07,0.6295603765978605,MEDIUM,2,email_sent_count,email_sent_count deviates strongly from user's baseline (4.3σ); avg_email_size_kb deviates strongly from user's baseline (3.3σ)
-WGS0516,2010-12-07,0.5827429710137743,MEDIUM,0,,No significant behavioral deviations detected.
-SVS0871,2010-12-07,0.5343563256661642,MEDIUM,0,,No significant behavioral deviations detected.
-MCT0720,2010-12-07,0.5413521806887358,MEDIUM,0,,No significant behavioral deviations detected.
-ZJS0269,2010-12-07,0.5749129355058019,MEDIUM,1,unique_recipients_count,
-RDM0115,2010-12-07,0.5747035595181689,MEDIUM,0,,No significant behavioral deviations detected.
-MAD0753,2010-12-07,0.5389100785925737,MEDIUM,0,,No significant behavioral deviations detected.
-NKP0236,2010-12-07,0.5877660053785639,MEDIUM,1,avg_email_size_kb,
-DGW0752,2010-12-07,0.5488032428788984,MEDIUM,0,,No significant behavioral deviations detected.
-LNS0989,2010-12-07,0.5880169517335752,MEDIUM,0,,No significant behavioral deviations detected.
-FXF0957,2010-12-07,0.48650147885533945,LOW,0,,No significant behavioral deviations detected.
-UFK0208,2010-12-07,0.5504539392282736,MEDIUM,0,,No significant behavioral deviations detected.
-IIL0513,2010-12-07,0.519290764251898,MEDIUM,0,,No significant behavioral deviations detected.
-TIW0299,2010-12-07,0.519290764251898,MEDIUM,0,,No significant behavioral deviations detected.
-BBH0810,2010-12-07,0.5448867600799231,MEDIUM,0,,No significant behavioral deviations detected.
-SAC0687,2010-12-07,0.6293770078511306,MEDIUM,1,after_hours_email_count,
-ASB0796,2010-12-07,0.5399144273099282,MEDIUM,0,,No significant behavioral deviations detected.
-PNH0761,2010-12-07,0.5509664492500622,MEDIUM,0,,No significant behavioral deviations detected.
-DVM0265,2010-12-07,0.5981023425698193,MEDIUM,0,,No significant behavioral deviations detected.
-AGB0186,2010-12-07,0.5272670317053088,MEDIUM,0,,No significant behavioral deviations detected.
-RVF0201,2010-12-07,0.5787261137746254,MEDIUM,0,,No significant behavioral deviations detected.
-EPW0434,2010-12-07,0.5169896402224878,MEDIUM,0,,No significant behavioral deviations detected.
-HAH0248,2010-12-07,0.5680130134088939,MEDIUM,0,,No significant behavioral deviations detected.
-IMP0530,2010-12-07,0.5097906364731815,MEDIUM,0,,No significant behavioral deviations detected.
-CMB0912,2010-12-07,0.5586959051531697,MEDIUM,0,,No significant behavioral deviations detected.
-MAW0166,2010-12-07,0.5516162344422799,MEDIUM,0,,No significant behavioral deviations detected.
-JLM0364,2010-12-07,0.5446216061382364,MEDIUM,0,,No significant behavioral deviations detected.
-BHW0458,2010-12-07,0.5771630570075923,MEDIUM,0,,No significant behavioral deviations detected.
-SCB0534,2010-12-07,0.545499075927078,MEDIUM,0,,No significant behavioral deviations detected.
-NSS0876,2010-12-07,0.5711213309392249,MEDIUM,0,,No significant behavioral deviations detected.
-ILC0838,2010-12-07,0.5713891415474446,MEDIUM,0,,No significant behavioral deviations detected.
-BTR0403,2010-12-07,0.5347529530480495,MEDIUM,0,,No significant behavioral deviations detected.
+AHM0410,2010-12-06,0.5731322797812525,MEDIUM,0,,No significant behavioral deviations detected.
+CAA0612,2010-12-06,0.6354515134888561,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
+SKG0759,2010-12-06,0.5816456572250985,MEDIUM,0,,No significant behavioral deviations detected.
+PLH0715,2010-12-06,0.5911336785214855,MEDIUM,0,,No significant behavioral deviations detected.
+SJW0451,2010-12-06,0.5610702411684253,MEDIUM,0,,No significant behavioral deviations detected.
+HGN0287,2010-12-06,0.5584102728593485,MEDIUM,0,,No significant behavioral deviations detected.
+KWE0082,2010-12-06,0.5714504294981635,MEDIUM,0,,No significant behavioral deviations detected.
+GCG0951,2010-12-06,0.5943046086831962,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
+ELH0960,2010-12-06,0.5763429227729752,MEDIUM,0,,No significant behavioral deviations detected.
+JCC0225,2010-12-06,0.6041174685647217,MEDIUM,0,,No significant behavioral deviations detected.
+YDN0198,2010-12-06,0.5894145837859158,MEDIUM,0,,No significant behavioral deviations detected.
+TEM0093,2010-12-06,0.5926113692666052,MEDIUM,0,,No significant behavioral deviations detected.
+LJJ0905,2010-12-06,0.619620378604919,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (4.8σ)
+KJS0618,2010-12-06,0.5864160337335702,MEDIUM,0,,No significant behavioral deviations detected.
+BEC0505,2010-12-06,0.5908886153592354,MEDIUM,0,,No significant behavioral deviations detected.
+NJC0705,2010-12-06,0.6193117833317479,MEDIUM,0,,No significant behavioral deviations detected.
+JAV0361,2010-12-06,0.6026254748128015,MEDIUM,0,,No significant behavioral deviations detected.
+BYP0070,2010-12-06,0.5867756846371266,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (10.3σ)
+ASG0692,2010-12-06,0.5756038790639826,MEDIUM,0,,No significant behavioral deviations detected.
+NWT0098,2010-12-06,0.6015483225266092,MEDIUM,0,,No significant behavioral deviations detected.
+MLM0950,2010-12-06,0.5858387654183176,MEDIUM,0,,No significant behavioral deviations detected.
+SBN0495,2010-12-06,0.5949742856946776,MEDIUM,0,,No significant behavioral deviations detected.
+JBM0350,2010-12-06,0.56189971084594,MEDIUM,0,,No significant behavioral deviations detected.
+RGN0408,2010-12-06,0.6073934727218185,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (95th percentile)
+VSA0230,2010-12-06,0.6268413153209156,MEDIUM,0,,No significant behavioral deviations detected.
+MJS0890,2010-12-06,0.6101169891632827,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.3σ)
+MSH0040,2010-12-06,0.6085433025581828,MEDIUM,0,,No significant behavioral deviations detected.
+WIQ0567,2010-12-06,0.5989434003581954,MEDIUM,0,,No significant behavioral deviations detected.
+ELB0847,2010-12-06,0.52696007924332,MEDIUM,0,,No significant behavioral deviations detected.
+DAG0558,2010-12-06,0.5774427074213927,MEDIUM,0,,No significant behavioral deviations detected.
+GCL0016,2010-12-06,0.645197748588396,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (97th percentile)
+CXC0336,2010-12-06,0.5910945374872508,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
+MAH0864,2010-12-06,0.5813970303428421,MEDIUM,0,,No significant behavioral deviations detected.
+KVT0028,2010-12-06,0.5924869308801815,MEDIUM,0,,No significant behavioral deviations detected.
+RHP0484,2010-12-06,0.6244827252315235,MEDIUM,0,,No significant behavioral deviations detected.
+AMJ0297,2010-12-06,0.5783997784458385,MEDIUM,0,,No significant behavioral deviations detected.
+VMJ0546,2010-12-06,0.6111251300279827,MEDIUM,1,unique_recipients_count,
+JML0909,2010-12-06,0.5610269667699754,MEDIUM,0,,No significant behavioral deviations detected.
+BMM0112,2010-12-06,0.6113711362314802,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.3σ)
+MSZ0310,2010-12-06,0.570257680067537,MEDIUM,0,,No significant behavioral deviations detected.
+SLP0762,2010-12-06,0.6040584751611412,MEDIUM,0,,No significant behavioral deviations detected.
+GDF0704,2010-12-06,0.5624081569836055,MEDIUM,0,,No significant behavioral deviations detected.
+TDJ0998,2010-12-06,0.6147381526705713,MEDIUM,0,,No significant behavioral deviations detected.
+NIH0969,2010-12-06,0.5853905875456548,MEDIUM,0,,No significant behavioral deviations detected.
+EHR0096,2010-12-06,0.5887785115433457,MEDIUM,0,,No significant behavioral deviations detected.
+UAD0771,2010-12-06,0.6029400030127979,MEDIUM,0,,No significant behavioral deviations detected.
+KVS0425,2010-12-06,0.6096515749280014,MEDIUM,0,,No significant behavioral deviations detected.
+DBG0261,2010-12-06,0.5267576887119605,MEDIUM,0,,No significant behavioral deviations detected.
+HDS0367,2010-12-06,0.5937925083926661,MEDIUM,0,,No significant behavioral deviations detected.
+JAJ0849,2010-12-06,0.574509029578624,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
+KAT0270,2010-12-06,0.5864363217278262,MEDIUM,0,,No significant behavioral deviations detected.
+AIM0627,2010-12-06,0.629298579643591,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
+WDD0366,2010-12-06,0.6031589990011651,MEDIUM,0,,No significant behavioral deviations detected.
+PIS0522,2010-12-06,0.5586634518987803,MEDIUM,0,,No significant behavioral deviations detected.
+CAM0681,2010-12-06,0.6120886223234201,MEDIUM,1,avg_email_size_kb,
+IAR0694,2010-12-06,0.5841535054973084,MEDIUM,0,,No significant behavioral deviations detected.
+AMH0794,2010-12-06,0.6103353486358235,MEDIUM,0,,No significant behavioral deviations detected.
+XRS0633,2010-12-06,0.5463115963001266,MEDIUM,0,,No significant behavioral deviations detected.
+RHY0079,2010-12-06,0.5930456635596065,MEDIUM,0,,No significant behavioral deviations detected.
+XWD0923,2010-12-06,0.564174009086654,MEDIUM,0,,No significant behavioral deviations detected.
+KAT0489,2010-12-06,0.5964872317277439,MEDIUM,0,,No significant behavioral deviations detected.
+GCS0571,2010-12-06,0.5648763601090873,MEDIUM,0,,No significant behavioral deviations detected.
+OCB0805,2010-12-06,0.5910391603866373,MEDIUM,0,,No significant behavioral deviations detected.
+WJD0576,2010-12-06,0.5167748451939017,MEDIUM,0,,No significant behavioral deviations detected.
+BDI0533,2010-12-06,0.5748426986649104,MEDIUM,0,,No significant behavioral deviations detected.
+GCS0518,2010-12-06,0.54899840748314,MEDIUM,0,,No significant behavioral deviations detected.
+CRK0916,2010-12-06,0.5781600172431298,MEDIUM,0,,No significant behavioral deviations detected.
+ASL0378,2010-12-06,0.575800792870024,MEDIUM,0,,No significant behavioral deviations detected.
+EIP0997,2010-12-06,0.5823629489365876,MEDIUM,0,,No significant behavioral deviations detected.
+MSS0001,2010-12-06,0.5871913234562858,MEDIUM,0,,No significant behavioral deviations detected.
+DBB0384,2010-12-06,0.5564210940590985,MEDIUM,0,,No significant behavioral deviations detected.
+TDS0984,2010-12-06,0.580128011866712,MEDIUM,0,,No significant behavioral deviations detected.
+AIH0675,2010-12-06,0.5571451818737525,MEDIUM,0,,No significant behavioral deviations detected.
+HWW0436,2010-12-06,0.5600991709909154,MEDIUM,0,,No significant behavioral deviations detected.
+MJM0510,2010-12-06,0.5379817190354986,MEDIUM,0,,No significant behavioral deviations detected.
+AIB0948,2010-12-06,0.5736935636952182,MEDIUM,0,,No significant behavioral deviations detected.
+CAB0614,2010-12-06,0.5694064001131076,MEDIUM,0,,No significant behavioral deviations detected.
+KJW0416,2010-12-06,0.5824442089275491,MEDIUM,0,,No significant behavioral deviations detected.
+SLB0049,2010-12-06,0.617011019179643,MEDIUM,1,avg_email_size_kb,
+HFB0347,2010-12-06,0.5805959389926085,MEDIUM,0,,No significant behavioral deviations detected.
+EIM0156,2010-12-06,0.5777013680372807,MEDIUM,0,,No significant behavioral deviations detected.
+JAM0382,2010-12-06,0.5785455001721068,MEDIUM,0,,No significant behavioral deviations detected.
+FGW0853,2010-12-06,0.5493421085471256,MEDIUM,0,,No significant behavioral deviations detected.
+SBH0537,2010-12-06,0.5791187816604115,MEDIUM,1,avg_email_size_kb,
+PKB0281,2010-12-06,0.576358334924138,MEDIUM,0,,No significant behavioral deviations detected.
+LJT0817,2010-12-06,0.6206036432162729,MEDIUM,0,,No significant behavioral deviations detected.
+CKH0144,2010-12-06,0.5665185219030091,MEDIUM,0,,No significant behavioral deviations detected.
+BDB0453,2010-12-06,0.5766685984746088,MEDIUM,0,,No significant behavioral deviations detected.
+CAM0102,2010-12-06,0.550438358899383,MEDIUM,0,,No significant behavioral deviations detected.
+RHO0732,2010-12-06,0.5769380217268016,MEDIUM,0,,No significant behavioral deviations detected.
+WKD0013,2010-12-06,0.612001776490643,MEDIUM,0,,No significant behavioral deviations detected.
+BXJ0010,2010-12-06,0.5466554575944961,MEDIUM,0,,No significant behavioral deviations detected.
+AMR0318,2010-12-06,0.6023760842981731,MEDIUM,0,,No significant behavioral deviations detected.
+YIC0195,2010-12-06,0.5917512331485053,MEDIUM,0,,No significant behavioral deviations detected.
+SJF0094,2010-12-06,0.5657835639826927,MEDIUM,0,,No significant behavioral deviations detected.
+HJA0018,2010-12-06,0.5800223167072508,MEDIUM,0,,No significant behavioral deviations detected.
+JCR0770,2010-12-06,0.5311056654999179,MEDIUM,0,,No significant behavioral deviations detected.
+PMV0850,2010-12-06,0.6508274172752432,MEDIUM,2,after_hours_email_count,after_hours_email_count is rare for this day (95th percentile); avg_email_size_kb is rare for this day (99th percentile)
+KJJ0293,2010-12-06,0.5890800512457978,MEDIUM,0,,No significant behavioral deviations detected.
+HRB0351,2010-12-06,0.5796380629711418,MEDIUM,0,,No significant behavioral deviations detected.
+MKL0941,2010-12-06,0.5610839722862127,MEDIUM,0,,No significant behavioral deviations detected.
+TUC0632,2010-12-06,0.563380073731426,MEDIUM,0,,No significant behavioral deviations detected.
+BTW0005,2010-12-06,0.6257875885955013,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (100th percentile)
+NUL0471,2010-12-06,0.5489158664834214,MEDIUM,0,,No significant behavioral deviations detected.
+NKH0979,2010-12-06,0.6073344072279314,MEDIUM,0,,No significant behavioral deviations detected.
+LIM0674,2010-12-06,0.5654412041669123,MEDIUM,0,,No significant behavioral deviations detected.
+QNP0216,2010-12-06,0.5697565408539023,MEDIUM,0,,No significant behavioral deviations detected.
+JCR0289,2010-12-06,0.5587966528365804,MEDIUM,0,,No significant behavioral deviations detected.
+GAF0570,2010-12-06,0.5969223084092563,MEDIUM,0,,No significant behavioral deviations detected.
+ASD0577,2010-12-06,0.5584562461258866,MEDIUM,0,,No significant behavioral deviations detected.
+CLS0296,2010-12-06,0.5798645110755725,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
+JLW0053,2010-12-06,0.6109128441560745,MEDIUM,0,,No significant behavioral deviations detected.
+MPT0376,2010-12-06,0.5716585502126199,MEDIUM,0,,No significant behavioral deviations detected.
+WIF0691,2010-12-06,0.6158025428336729,MEDIUM,0,,No significant behavioral deviations detected.
+EMW0772,2010-12-06,0.5820281571380665,MEDIUM,0,,No significant behavioral deviations detected.
+AGB0643,2010-12-06,0.6273535132282984,MEDIUM,0,,No significant behavioral deviations detected.
+RDT0424,2010-12-06,0.5338243162030049,MEDIUM,0,,No significant behavioral deviations detected.
+KJM0887,2010-12-06,0.5271320495585471,MEDIUM,0,,No significant behavioral deviations detected.
+ENC0234,2010-12-06,0.6030582150250912,MEDIUM,0,,No significant behavioral deviations detected.
+BHC0665,2010-12-06,0.5311036538957217,MEDIUM,0,,No significant behavioral deviations detected.
+KBG0549,2010-12-06,0.5654692332055477,MEDIUM,0,,No significant behavioral deviations detected.
+THR0873,2010-12-06,0.6377535286463845,MEDIUM,0,,No significant behavioral deviations detected.
+RDM0115,2010-12-06,0.5955803112384609,MEDIUM,0,,No significant behavioral deviations detected.
+MCT0720,2010-12-06,0.5549273254657866,MEDIUM,0,,No significant behavioral deviations detected.
+TPH0474,2010-12-06,0.5360494263918907,MEDIUM,0,,No significant behavioral deviations detected.
+JCV0245,2010-12-06,0.5593735037830359,MEDIUM,0,,No significant behavioral deviations detected.
+NSS0876,2010-12-06,0.6143430635373994,MEDIUM,0,,No significant behavioral deviations detected.
+SCB0534,2010-12-06,0.5924695707085785,MEDIUM,0,,No significant behavioral deviations detected.
+BHW0458,2010-12-06,0.604560973310022,MEDIUM,0,,No significant behavioral deviations detected.
+JLM0364,2010-12-06,0.5646584895145395,MEDIUM,0,,No significant behavioral deviations detected.
+MAW0166,2010-12-06,0.5585937305341961,MEDIUM,0,,No significant behavioral deviations detected.
+CMB0912,2010-12-06,0.5988257498221354,MEDIUM,0,,No significant behavioral deviations detected.
+EPW0434,2010-12-06,0.591345055824538,MEDIUM,1,unique_recipients_count,
+AGB0186,2010-12-06,0.5232917828173359,MEDIUM,0,,No significant behavioral deviations detected.
+HVB0037,2010-12-06,0.5915611103462052,MEDIUM,0,,No significant behavioral deviations detected.
+SER0165,2010-12-06,0.5528515893438202,MEDIUM,0,,No significant behavioral deviations detected.
+ASB0796,2010-12-06,0.6123862001562657,MEDIUM,1,avg_email_size_kb,
+BTS0011,2010-12-06,0.5993173273814589,MEDIUM,0,,No significant behavioral deviations detected.
+HTH0007,2010-12-06,0.5807070798868752,MEDIUM,0,,No significant behavioral deviations detected.
+HJB0742,2010-12-06,0.6008278100681553,MEDIUM,0,,No significant behavioral deviations detected.
+ENL0100,2010-12-06,0.5849788224985275,MEDIUM,0,,No significant behavioral deviations detected.
+JCR0921,2010-12-06,0.6627554957083743,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.1σ)
+AMV0036,2010-12-06,0.5988376500425795,MEDIUM,0,,No significant behavioral deviations detected.
+LAP0338,2010-12-06,0.5969754951644843,MEDIUM,0,,No significant behavioral deviations detected.
+GAF0060,2010-12-06,0.6210760377549728,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (99th percentile)
+RDM0150,2010-12-06,0.5716760664496587,MEDIUM,0,,No significant behavioral deviations detected.
+CTW0500,2010-12-06,0.5656346708739897,MEDIUM,0,,No significant behavioral deviations detected.
+SBQ0786,2010-12-06,0.571452520813591,MEDIUM,0,,No significant behavioral deviations detected.
+PNH0761,2010-12-06,0.5644871966246141,MEDIUM,0,,No significant behavioral deviations detected.
+TVS0050,2010-12-06,0.5951932688897106,MEDIUM,0,,No significant behavioral deviations detected.
+THD0448,2010-12-06,0.5109120587235731,MEDIUM,0,,No significant behavioral deviations detected.
+CUD0795,2010-12-06,0.5795200310182312,MEDIUM,0,,No significant behavioral deviations detected.
+FEB0306,2010-12-06,0.6126095245724855,MEDIUM,0,,No significant behavioral deviations detected.
+ASG0048,2010-12-06,0.5854098463845279,MEDIUM,0,,No significant behavioral deviations detected.
+EMB0531,2010-12-06,0.5501522441404908,MEDIUM,0,,No significant behavioral deviations detected.
+JMC0925,2010-12-06,0.6054707667495237,MEDIUM,0,,No significant behavioral deviations detected.
+BWP0202,2010-12-06,0.5673514904049967,MEDIUM,0,,No significant behavioral deviations detected.
+HVF0067,2010-12-06,0.5792572838407042,MEDIUM,0,,No significant behavioral deviations detected.
+CWR0502,2010-12-06,0.5777933993261303,MEDIUM,0,,No significant behavioral deviations detected.
+WBC0315,2010-12-06,0.6255290946006079,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
+SBN0866,2010-12-06,0.5451825374371496,MEDIUM,0,,No significant behavioral deviations detected.
+HIA0414,2010-12-06,0.5868804178463971,MEDIUM,0,,No significant behavioral deviations detected.
+CLF0852,2010-12-06,0.6224180992563066,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
+YEV0793,2010-12-06,0.5735033853177368,MEDIUM,0,,No significant behavioral deviations detected.
+JCG0316,2010-12-06,0.614979091367604,MEDIUM,0,,No significant behavioral deviations detected.
+GCC0945,2010-12-06,0.5400492356245009,MEDIUM,0,,No significant behavioral deviations detected.
+ELT0769,2010-12-06,0.5850495816264871,MEDIUM,0,,No significant behavioral deviations detected.
+TEM0977,2010-12-06,0.6461072066333402,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (95th percentile)
+MAR0955,2010-12-06,0.5589039863858275,MEDIUM,0,,No significant behavioral deviations detected.
+BEH0615,2010-12-06,0.6253680545008358,MEDIUM,1,avg_email_size_kb,
+MSG0839,2010-12-06,0.6439036859362416,MEDIUM,0,,No significant behavioral deviations detected.
+AHD0848,2010-12-06,0.5365575420853484,MEDIUM,0,,No significant behavioral deviations detected.
+KBB0189,2010-12-06,0.5516381985597243,MEDIUM,0,,No significant behavioral deviations detected.
+RGH0728,2010-12-06,0.6104391585896894,MEDIUM,0,,No significant behavioral deviations detected.
+PLH0862,2010-12-06,0.5739609467465334,MEDIUM,0,,No significant behavioral deviations detected.
+JMD0520,2010-12-06,0.5787796220358701,MEDIUM,0,,No significant behavioral deviations detected.
+HWH0646,2010-12-06,0.5460262633635178,MEDIUM,0,,No significant behavioral deviations detected.
+PMC0328,2010-12-06,0.6192350512099507,MEDIUM,2,unique_recipients_count,unique_recipients_count deviates strongly from user's baseline (4.0σ); avg_email_size_kb is rare for this day (97th percentile)
+BWH0813,2010-12-06,0.5767236330990648,MEDIUM,0,,No significant behavioral deviations detected.
+MKG0711,2010-12-06,0.5989111080120009,MEDIUM,0,,No significant behavioral deviations detected.
+NKH0807,2010-12-06,0.6184166886790249,MEDIUM,1,avg_email_size_kb,
+BMG0917,2010-12-06,0.5582449719677752,MEDIUM,0,,No significant behavioral deviations detected.
+SBN0971,2010-12-06,0.5399034297889889,MEDIUM,0,,No significant behavioral deviations detected.
+EMW0105,2010-12-06,0.6050115967214833,MEDIUM,0,,No significant behavioral deviations detected.
+LAM0911,2010-12-06,0.5802500507538393,MEDIUM,0,,No significant behavioral deviations detected.
+HIW0536,2010-12-06,0.6143796055943115,MEDIUM,0,,No significant behavioral deviations detected.
+BER0314,2010-12-06,0.5626262277340432,MEDIUM,0,,No significant behavioral deviations detected.
+BVC0790,2010-12-06,0.6137509000553159,MEDIUM,1,avg_email_size_kb,
+KBC0054,2010-12-06,0.6051210210750082,MEDIUM,0,,No significant behavioral deviations detected.
+PMJ0564,2010-12-06,0.5634842939721719,MEDIUM,0,,No significant behavioral deviations detected.
+AHC0142,2010-12-06,0.574076705028826,MEDIUM,0,,No significant behavioral deviations detected.
+RFP0380,2010-12-06,0.558095839430282,MEDIUM,0,,No significant behavioral deviations detected.
+MDH0580,2010-12-06,0.6160665926120427,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.5σ)
+GBM0603,2010-12-06,0.5878146399141763,MEDIUM,0,,No significant behavioral deviations detected.
+AMR0400,2010-12-06,0.5851024471775381,MEDIUM,0,,No significant behavioral deviations detected.
+TVS0006,2010-12-06,0.6285667890814205,MEDIUM,0,,No significant behavioral deviations detected.
+TET0621,2010-12-06,0.6025086123603547,MEDIUM,0,,No significant behavioral deviations detected.
+GCC0744,2010-12-06,0.5883242138499275,MEDIUM,0,,No significant behavioral deviations detected.
+SJO0209,2010-12-06,0.5838076217565047,MEDIUM,0,,No significant behavioral deviations detected.
+CWB0065,2010-12-06,0.5662761696191756,MEDIUM,0,,No significant behavioral deviations detected.
+EMS0317,2010-12-06,0.5848291576800778,MEDIUM,0,,No significant behavioral deviations detected.
+MSD0939,2010-12-06,0.6064968008880927,MEDIUM,1,unique_recipients_count,
+KJP0371,2010-12-06,0.5790252221133549,MEDIUM,0,,No significant behavioral deviations detected.
+ABH0663,2010-12-06,0.583549242588836,MEDIUM,0,,No significant behavioral deviations detected.
+LAF0991,2010-12-06,0.5810988183652245,MEDIUM,0,,No significant behavioral deviations detected.
+LJB0826,2010-12-06,0.5880414725171552,MEDIUM,0,,No significant behavioral deviations detected.
+NWK0215,2010-12-06,0.5608901571800432,MEDIUM,0,,No significant behavioral deviations detected.
+JCR0172,2010-12-06,0.636587274523871,MEDIUM,0,,No significant behavioral deviations detected.
+PAD0773,2010-12-06,0.5901230767009576,MEDIUM,0,,No significant behavioral deviations detected.
+DKB0631,2010-12-06,0.5995188890235383,MEDIUM,0,,No significant behavioral deviations detected.
+LRW0970,2010-12-06,0.5739928624309748,MEDIUM,0,,No significant behavioral deviations detected.
+AJP0723,2010-12-06,0.5688190932230803,MEDIUM,0,,No significant behavioral deviations detected.
+NCH0179,2010-12-06,0.6205655995054676,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (98th percentile)
+ATF0274,2010-12-06,0.574747153007139,MEDIUM,0,,No significant behavioral deviations detected.
+ATP0662,2010-12-06,0.5861080817176514,MEDIUM,1,avg_email_size_kb,
+BAJ0654,2010-12-06,0.5518378019355153,MEDIUM,0,,No significant behavioral deviations detected.
+HBO0413,2010-12-06,0.5525454816768475,MEDIUM,0,,No significant behavioral deviations detected.
+SSG0250,2010-12-06,0.5876233176340444,MEDIUM,0,,No significant behavioral deviations detected.
+HPR0585,2010-12-06,0.6148100251113556,MEDIUM,0,,No significant behavioral deviations detected.
+AKF0709,2010-12-06,0.532957935253282,MEDIUM,0,,No significant behavioral deviations detected.
+MLL0598,2010-12-06,0.5337974997855691,MEDIUM,0,,No significant behavioral deviations detected.
+NBH0256,2010-12-06,0.5534747425279993,MEDIUM,0,,No significant behavioral deviations detected.
+RNP0211,2010-12-06,0.6072557524669577,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (97th percentile)
+SSJ0784,2010-12-06,0.5841728301950997,MEDIUM,0,,No significant behavioral deviations detected.
+DJB0159,2010-12-06,0.6183744324790145,MEDIUM,0,,No significant behavioral deviations detected.
+AKC0924,2010-12-06,0.5821516841737486,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (99th percentile)
+LTS0860,2010-12-06,0.6029070744310615,MEDIUM,0,,No significant behavioral deviations detected.
+NBC0412,2010-12-06,0.6353906122895989,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (8.7σ)
+WPR0368,2010-12-06,0.6159881364735116,MEDIUM,1,unique_recipients_count,
+HAM0985,2010-12-06,0.5508486413369399,MEDIUM,0,,No significant behavioral deviations detected.
+SOB0586,2010-12-06,0.5210367450645625,MEDIUM,0,,No significant behavioral deviations detected.
+ROB0272,2010-12-06,0.5677659589436761,MEDIUM,0,,No significant behavioral deviations detected.
+CGA0629,2010-12-06,0.6333105008471903,MEDIUM,2,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
+KPP0452,2010-12-06,0.5725008635617084,MEDIUM,0,,No significant behavioral deviations detected.
+MHG0733,2010-12-06,0.6242711516261561,MEDIUM,0,,No significant behavioral deviations detected.
+DPM0423,2010-12-06,0.5471485891671182,MEDIUM,0,,No significant behavioral deviations detected.
+HAH0760,2010-12-06,0.5494500538150985,MEDIUM,0,,No significant behavioral deviations detected.
+DMM0623,2010-12-06,0.5911652724071347,MEDIUM,0,,No significant behavioral deviations detected.
+OMM0944,2010-12-06,0.5540935911885168,MEDIUM,0,,No significant behavioral deviations detected.
+RVF0201,2010-12-06,0.5844648836411085,MEDIUM,0,,No significant behavioral deviations detected.
+LPC0492,2010-12-06,0.5836728589542757,MEDIUM,0,,No significant behavioral deviations detected.
+AAW0353,2010-12-06,0.6048140929680943,MEDIUM,0,,No significant behavioral deviations detected.
+RUM0880,2010-12-06,0.5631613701767982,MEDIUM,0,,No significant behavioral deviations detected.
+SNS0129,2010-12-06,0.5738241552959401,MEDIUM,0,,No significant behavioral deviations detected.
+WSR0241,2010-12-06,0.5818627995797311,MEDIUM,0,,No significant behavioral deviations detected.
+HCL0651,2010-12-06,0.5474130277620879,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (98th percentile)
+CEJ0109,2010-12-06,0.5744703819288619,MEDIUM,0,,No significant behavioral deviations detected.
+JRL0574,2010-12-06,0.5798507130162225,MEDIUM,0,,No significant behavioral deviations detected.
+AKK0329,2010-12-06,0.6067283786694582,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (96th percentile)
+RSC0089,2010-12-06,0.5810126544824306,MEDIUM,0,,No significant behavioral deviations detected.
+JJB0700,2010-12-06,0.5741308491124413,MEDIUM,0,,No significant behavioral deviations detected.
+IKP0472,2010-12-06,0.5897713852450931,MEDIUM,0,,No significant behavioral deviations detected.
+CHM0821,2010-12-06,0.5474124652275915,MEDIUM,0,,No significant behavioral deviations detected.
+ILC0838,2010-12-06,0.5811806758511591,MEDIUM,0,,No significant behavioral deviations detected.
+JSH0330,2010-12-06,0.5575240037452638,MEDIUM,0,,No significant behavioral deviations detected.
+RTO0313,2010-12-06,0.6212602537400316,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (99th percentile)
+KMS0657,2010-12-06,0.565781581844763,MEDIUM,0,,No significant behavioral deviations detected.
+SOG0411,2010-12-06,0.5799641138437811,MEDIUM,1,unique_recipients_count,
+NCE0097,2010-12-06,0.5568061703958415,MEDIUM,0,,No significant behavioral deviations detected.
+JSA0775,2010-12-06,0.5919341193079894,MEDIUM,0,,No significant behavioral deviations detected.
+HAV0121,2010-12-06,0.536022896989789,MEDIUM,0,,No significant behavioral deviations detected.
+WVB0539,2010-12-06,0.6026219438453323,MEDIUM,0,,No significant behavioral deviations detected.
+DHM0937,2010-12-06,0.5882005149502822,MEDIUM,0,,No significant behavioral deviations detected.
+HBB0056,2010-12-06,0.6083397932897385,MEDIUM,1,unique_recipients_count,
+IIW0249,2010-12-06,0.5639247173290229,MEDIUM,0,,No significant behavioral deviations detected.
+DIW0118,2010-12-06,0.5866988629285915,MEDIUM,0,,No significant behavioral deviations detected.
+OQH0183,2010-12-06,0.5536500458783233,MEDIUM,0,,No significant behavioral deviations detected.
+KNW0644,2010-12-06,0.5527569228404424,MEDIUM,0,,No significant behavioral deviations detected.
+KNG0672,2010-12-06,0.5802851947806135,MEDIUM,0,,No significant behavioral deviations detected.
+KPR0497,2010-12-06,0.6082812381657009,MEDIUM,0,,No significant behavioral deviations detected.
+LRR0148,2010-12-06,0.5779999283306123,MEDIUM,0,,No significant behavioral deviations detected.
+CFG0959,2010-12-06,0.5917957598454787,MEDIUM,0,,No significant behavioral deviations detected.
+IHK0841,2010-12-06,0.5969824340473748,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (95th percentile)
+ORG0339,2010-12-06,0.6183399823411977,MEDIUM,0,,No significant behavioral deviations detected.
+DLS0383,2010-12-06,0.5530350150474472,MEDIUM,0,,No significant behavioral deviations detected.
+DID0650,2010-12-06,0.6084252649426664,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
+ABC0253,2010-12-06,0.5658179211065066,MEDIUM,0,,No significant behavioral deviations detected.
+LQP0508,2010-12-06,0.5453203067914695,MEDIUM,0,,No significant behavioral deviations detected.
+VCC0396,2010-12-06,0.5859669031239334,MEDIUM,1,avg_email_size_kb,
+IJM0139,2010-12-06,0.5519522718967214,MEDIUM,0,,No significant behavioral deviations detected.
+AJN0607,2010-12-06,0.6270381157502426,MEDIUM,0,,No significant behavioral deviations detected.
+MHA0798,2010-12-06,0.5892216577379079,MEDIUM,0,,No significant behavioral deviations detected.
+AVM0947,2010-12-06,0.5630219706814885,MEDIUM,0,,No significant behavioral deviations detected.
+IIA0092,2010-12-06,0.5879333479825222,MEDIUM,0,,No significant behavioral deviations detected.
+SRH0155,2010-12-06,0.5802068381394283,MEDIUM,0,,No significant behavioral deviations detected.
+JRS0362,2010-12-06,0.5927844056729303,MEDIUM,0,,No significant behavioral deviations detected.
+JRG0207,2010-12-06,0.6068863485621948,MEDIUM,0,,No significant behavioral deviations detected.
+DLH0029,2010-12-06,0.559684069362308,MEDIUM,0,,No significant behavioral deviations detected.
+HAC0282,2010-12-06,0.5385781697422265,MEDIUM,0,,No significant behavioral deviations detected.
+CGB0637,2010-12-06,0.5618701044020529,MEDIUM,0,,No significant behavioral deviations detected.
+VAA0087,2010-12-06,0.569584785864495,MEDIUM,0,,No significant behavioral deviations detected.
+SRS0231,2010-12-06,0.6013620965417844,MEDIUM,0,,No significant behavioral deviations detected.
+NAR0981,2010-12-06,0.5786684622398288,MEDIUM,0,,No significant behavioral deviations detected.
+OYM0026,2010-12-06,0.5506757197966005,MEDIUM,0,,No significant behavioral deviations detected.
+WTR0563,2010-12-06,0.6079688548655447,MEDIUM,0,,No significant behavioral deviations detected.
+DMK0257,2010-12-06,0.5754470401610141,MEDIUM,0,,No significant behavioral deviations detected.
+VCY0751,2010-12-06,0.5781640832090609,MEDIUM,0,,No significant behavioral deviations detected.
+USH0199,2010-12-06,0.5574991041953135,MEDIUM,0,,No significant behavioral deviations detected.
+DLF0377,2010-12-06,0.5945904927536155,MEDIUM,0,,No significant behavioral deviations detected.
+MGS0974,2010-12-06,0.5820430652653152,MEDIUM,0,,No significant behavioral deviations detected.
+DJS0682,2010-12-06,0.5501681152680062,MEDIUM,0,,No significant behavioral deviations detected.
+DOL0332,2010-12-06,0.5657073414247048,MEDIUM,0,,No significant behavioral deviations detected.
+HAD0246,2010-12-06,0.6102266472198602,MEDIUM,0,,No significant behavioral deviations detected.
+VEB0935,2010-12-06,0.5659827438142266,MEDIUM,0,,No significant behavioral deviations detected.
+AAV0450,2010-12-06,0.5520596006289539,MEDIUM,0,,No significant behavioral deviations detected.
+ALD0529,2010-12-06,0.5581982672914123,MEDIUM,0,,No significant behavioral deviations detected.
+HCC0344,2010-12-06,0.6242526838702757,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (95th percentile)
+NAH0503,2010-12-06,0.5962381300387098,MEDIUM,0,,No significant behavioral deviations detected.
+SES0477,2010-12-06,0.6304012437633436,MEDIUM,0,,No significant behavioral deviations detected.
+NCK0421,2010-12-06,0.574463467406873,MEDIUM,0,,No significant behavioral deviations detected.
+CJF0802,2010-12-06,0.5947437099217309,MEDIUM,0,,No significant behavioral deviations detected.
+JRF0835,2010-12-06,0.5691316110412243,MEDIUM,0,,No significant behavioral deviations detected.
+AKW0167,2010-12-06,0.5824125569038021,MEDIUM,0,,No significant behavioral deviations detected.
+UJC0737,2010-12-06,0.581187840476798,MEDIUM,0,,No significant behavioral deviations detected.
+SAA0999,2010-12-06,0.586933503009677,MEDIUM,0,,No significant behavioral deviations detected.
+GTD0898,2010-12-06,0.557097757829468,MEDIUM,0,,No significant behavioral deviations detected.
+FHO0630,2010-12-06,0.6010711973012641,MEDIUM,0,,No significant behavioral deviations detected.
+SPA0141,2010-12-06,0.5936009395530937,MEDIUM,0,,No significant behavioral deviations detected.
+AKH0758,2010-12-06,0.5815540930146089,MEDIUM,0,,No significant behavioral deviations detected.
+CQH0730,2010-12-06,0.6073441233961632,MEDIUM,0,,No significant behavioral deviations detected.
+IEB0153,2010-12-06,0.5328097590388674,MEDIUM,0,,No significant behavioral deviations detected.
+RSM0277,2010-12-06,0.5571941638987046,MEDIUM,0,,No significant behavioral deviations detected.
+NDM0417,2010-12-06,0.6515496779700227,MEDIUM,2,unique_recipients_count,after_hours_email_count is rare for this day (95th percentile)
+OLW0689,2010-12-06,0.6513034573555728,MEDIUM,2,unique_recipients_count,after_hours_email_count is rare for this day (99th percentile)
+DOP0562,2010-12-06,0.6583866008968673,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (95th percentile)
+DMG0358,2010-12-06,0.6084054290364775,MEDIUM,0,,No significant behavioral deviations detected.
+AJR0319,2010-12-06,0.5838338693274772,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
+KQS0415,2010-12-06,0.5892248237551116,MEDIUM,0,,No significant behavioral deviations detected.
+GZC0735,2010-12-06,0.5926863629259033,MEDIUM,0,,No significant behavioral deviations detected.
+CEB0210,2010-12-06,0.6426764288345211,MEDIUM,1,avg_email_size_kb,
+QPM0727,2010-12-06,0.6204234040308771,MEDIUM,0,,No significant behavioral deviations detected.
+ILH0958,2010-12-06,0.6050381996978478,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
+CCW0524,2010-12-06,0.5358333429192569,MEDIUM,0,,No significant behavioral deviations detected.
+IJR0825,2010-12-06,0.6079517202126037,MEDIUM,0,,No significant behavioral deviations detected.
+NCO0666,2010-12-06,0.574937459204399,MEDIUM,0,,No significant behavioral deviations detected.
+BAH0875,2010-12-06,0.5857273612910334,MEDIUM,0,,No significant behavioral deviations detected.
+CJC0494,2010-12-06,0.6338124552583299,MEDIUM,1,avg_email_size_kb,
+ZJS0269,2010-12-06,0.5505043433995558,MEDIUM,0,,No significant behavioral deviations detected.
+WTF0387,2010-12-06,0.5951263882653578,MEDIUM,0,,No significant behavioral deviations detected.
+NCK0295,2010-12-06,0.5418685045735676,MEDIUM,0,,No significant behavioral deviations detected.
+IJW0851,2010-12-06,0.5767469857231484,MEDIUM,0,,No significant behavioral deviations detected.
+BAL0044,2010-12-06,0.5441187823721398,MEDIUM,0,,No significant behavioral deviations detected.
+KQC0708,2010-12-06,0.5722358228952226,MEDIUM,0,,No significant behavioral deviations detected.
+WPE0538,2010-12-06,0.5120771142194891,MEDIUM,0,,No significant behavioral deviations detected.
+OMS0101,2010-12-06,0.5581724908047391,MEDIUM,0,,No significant behavioral deviations detected.
+SSH0799,2010-12-06,0.6029550673991753,MEDIUM,0,,No significant behavioral deviations detected.
+IJM0444,2010-12-06,0.5595394473812054,MEDIUM,0,,No significant behavioral deviations detected.
+CIM0271,2010-12-06,0.6002870124687274,MEDIUM,0,,No significant behavioral deviations detected.
+CHG0146,2010-12-06,0.5685926951582783,MEDIUM,0,,No significant behavioral deviations detected.
+BAK0964,2010-12-06,0.5964841121414741,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
+MCF0327,2010-12-06,0.5977421073101259,MEDIUM,0,,No significant behavioral deviations detected.
+CEL0561,2010-12-06,0.6284225556154045,MEDIUM,0,,No significant behavioral deviations detected.
+DLM0051,2010-12-06,0.5726234572785313,MEDIUM,0,,No significant behavioral deviations detected.
+OSH0655,2010-12-06,0.6379510746604378,MEDIUM,0,,No significant behavioral deviations detected.
+ZSK0258,2010-12-06,0.5746576878420189,MEDIUM,0,,No significant behavioral deviations detected.
+AWM0764,2010-12-06,0.5813279492112393,MEDIUM,0,,No significant behavioral deviations detected.
+DIC0988,2010-12-06,0.5576536428230215,MEDIUM,0,,No significant behavioral deviations detected.
+MHG0244,2010-12-06,0.6302805755729168,MEDIUM,1,avg_email_size_kb,
+SOF0808,2010-12-06,0.6247042374710045,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (99th percentile)
+CGF0337,2010-12-06,0.5867166395064437,MEDIUM,0,,No significant behavioral deviations detected.
+ORM0669,2010-12-06,0.6230475841243313,MEDIUM,1,unique_recipients_count,
+BLL0929,2010-12-06,0.5632343313214632,MEDIUM,0,,No significant behavioral deviations detected.
+ONL0276,2010-12-06,0.5849244847825187,MEDIUM,0,,No significant behavioral deviations detected.
+KNB0022,2010-12-06,0.6017952484360128,MEDIUM,0,,No significant behavioral deviations detected.
+KMW0545,2010-12-06,0.552521970737142,MEDIUM,0,,No significant behavioral deviations detected.
+JTS0389,2010-12-06,0.6009408410697652,MEDIUM,0,,No significant behavioral deviations detected.
+ONW0083,2010-12-06,0.5796128708640957,MEDIUM,0,,No significant behavioral deviations detected.
+RZC0746,2010-12-06,0.5704446954049821,MEDIUM,0,,No significant behavioral deviations detected.
+IIL0513,2010-12-06,0.5656984634956995,MEDIUM,0,,No significant behavioral deviations detected.
+MFV0897,2010-12-06,0.5721441370446845,MEDIUM,0,,No significant behavioral deviations detected.
+CIG0052,2010-12-06,0.6122637244699505,MEDIUM,1,avg_email_size_kb,
+GZB0469,2010-12-06,0.5932878659096941,MEDIUM,0,,No significant behavioral deviations detected.
+RRA0938,2010-12-06,0.5515707492012928,MEDIUM,0,,No significant behavioral deviations detected.
+CFM0767,2010-12-06,0.5911563597484705,MEDIUM,0,,No significant behavioral deviations detected.
+HAH0248,2010-12-06,0.578260979263358,MEDIUM,0,,No significant behavioral deviations detected.
+IKR0401,2010-12-06,0.5838139728249392,MEDIUM,0,,No significant behavioral deviations detected.
+RYB0718,2010-12-06,0.554862028881829,MEDIUM,0,,No significant behavioral deviations detected.
+DGW0752,2010-12-06,0.5872063569646885,MEDIUM,0,,No significant behavioral deviations detected.
+ORB0473,2010-12-06,0.6085895443414764,MEDIUM,0,,No significant behavioral deviations detected.
+RRP0568,2010-12-06,0.6000679583281692,MEDIUM,0,,No significant behavioral deviations detected.
+ALC0788,2010-12-06,0.5672130694540785,MEDIUM,0,,No significant behavioral deviations detected.
+RVC0232,2010-12-06,0.5509229418022281,MEDIUM,0,,No significant behavioral deviations detected.
+HCL0113,2010-12-06,0.6890508480060624,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (5.8σ)
+ABH0663,2010-12-07,0.5836772374210797,MEDIUM,0,,No significant behavioral deviations detected.
+HIW0536,2010-12-07,0.5912319929028802,MEDIUM,0,,No significant behavioral deviations detected.
+BMG0917,2010-12-07,0.56103783532218,MEDIUM,0,,No significant behavioral deviations detected.
+PEV0323,2010-12-07,0.6152949384183672,MEDIUM,0,,No significant behavioral deviations detected.
+CFM0767,2010-12-07,0.5707506174019112,MEDIUM,0,,No significant behavioral deviations detected.
+LQP0508,2010-12-07,0.517767842241582,MEDIUM,0,,No significant behavioral deviations detected.
+GNS0178,2010-12-07,0.6003739464130298,MEDIUM,1,avg_email_size_kb,
+CQW0652,2010-12-07,0.6394713161842522,MEDIUM,1,after_hours_email_count,after_hours_email_count is rare for this day (98th percentile)
+WBC0315,2010-12-07,0.5850649641438473,MEDIUM,0,,No significant behavioral deviations detected.
+SBN0866,2010-12-07,0.5797726268974028,MEDIUM,0,,No significant behavioral deviations detected.
+HCL0651,2010-12-07,0.499330982238381,LOW,0,,No significant behavioral deviations detected.
+BVC0790,2010-12-07,0.5790886969616305,MEDIUM,0,,No significant behavioral deviations detected.
+BER0314,2010-12-07,0.5871330709692708,MEDIUM,0,,No significant behavioral deviations detected.
+YEV0793,2010-12-07,0.5584740865586089,MEDIUM,0,,No significant behavioral deviations detected.
+LAM0911,2010-12-07,0.6164448751744434,MEDIUM,1,avg_email_size_kb,
+MSD0939,2010-12-07,0.5879373724606587,MEDIUM,0,,No significant behavioral deviations detected.
+CUD0795,2010-12-07,0.5743157841066358,MEDIUM,0,,No significant behavioral deviations detected.
+OMS0101,2010-12-07,0.5577603943623275,MEDIUM,0,,No significant behavioral deviations detected.
+IBP0883,2010-12-07,0.5384818688058687,MEDIUM,0,,No significant behavioral deviations detected.
+CLF0852,2010-12-07,0.5726210222851621,MEDIUM,0,,No significant behavioral deviations detected.
+HDD0806,2010-12-07,0.5862817565530744,MEDIUM,0,,No significant behavioral deviations detected.
+NAB0801,2010-12-07,0.579366517561297,MEDIUM,0,,No significant behavioral deviations detected.
+SBN0971,2010-12-07,0.5399635609862535,MEDIUM,0,,No significant behavioral deviations detected.
+AAW0353,2010-12-07,0.5704599653579405,MEDIUM,0,,No significant behavioral deviations detected.
+DLS0383,2010-12-07,0.5670183581933513,MEDIUM,0,,No significant behavioral deviations detected.
+EMW0105,2010-12-07,0.6204798145010988,MEDIUM,1,avg_email_size_kb,avg_email_size_kb deviates strongly from user's baseline (3.3σ)
+QRM0739,2010-12-07,0.586099015460268,MEDIUM,0,,No significant behavioral deviations detected.
+KRV0372,2010-12-07,0.5503650594065348,MEDIUM,0,,No significant behavioral deviations detected.
+CJF0802,2010-12-07,0.5948326526920724,MEDIUM,0,,No significant behavioral deviations detected.
+HIA0414,2010-12-07,0.5848223701013981,MEDIUM,0,,No significant behavioral deviations detected.
+VLB0647,2010-12-07,0.6046550375421544,MEDIUM,0,,No significant behavioral deviations detected.
+LJB0826,2010-12-07,0.6081236641115597,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (99th percentile)
+LAF0991,2010-12-07,0.6248942227575827,MEDIUM,1,unique_recipients_count,
+BAL0044,2010-12-07,0.5683556655992225,MEDIUM,0,,No significant behavioral deviations detected.
+TET0621,2010-12-07,0.5817764293556341,MEDIUM,0,,No significant behavioral deviations detected.
+FEB0306,2010-12-07,0.6479900408314461,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (98th percentile)
+AMR0400,2010-12-07,0.5758294957278488,MEDIUM,0,,No significant behavioral deviations detected.
+EMB0531,2010-12-07,0.5966579628709455,MEDIUM,0,,No significant behavioral deviations detected.
+GZB0469,2010-12-07,0.5668829106779698,MEDIUM,0,,No significant behavioral deviations detected.
+ASG0048,2010-12-07,0.5269013354244595,MEDIUM,0,,No significant behavioral deviations detected.
+SJO0209,2010-12-07,0.5863804204240748,MEDIUM,0,,No significant behavioral deviations detected.
+JCR0172,2010-12-07,0.6144942517013119,MEDIUM,0,,No significant behavioral deviations detected.
+WPR0368,2010-12-07,0.5714631758746775,MEDIUM,0,,No significant behavioral deviations detected.
+NGO0690,2010-12-07,0.5940694290382572,MEDIUM,0,,No significant behavioral deviations detected.
+NKH0807,2010-12-07,0.5716565807955079,MEDIUM,0,,No significant behavioral deviations detected.
+PMC0328,2010-12-07,0.5326071604831053,MEDIUM,0,,No significant behavioral deviations detected.
+UCS0227,2010-12-07,0.5527828742011065,MEDIUM,0,,No significant behavioral deviations detected.
+IKR0401,2010-12-07,0.651101321736139,MEDIUM,1,after_hours_email_count,after_hours_email_count deviates strongly from user's baseline (3.8σ)
+KKW0879,2010-12-07,0.6142519428831392,MEDIUM,0,,No significant behavioral deviations detected.
+NBH0256,2010-12-07,0.5465845163594474,MEDIUM,0,,No significant behavioral deviations detected.
+BAJ0654,2010-12-07,0.572274763465214,MEDIUM,0,,No significant behavioral deviations detected.
+MKG0711,2010-12-07,0.5945276336750813,MEDIUM,0,,No significant behavioral deviations detected.
+SAH0599,2010-12-07,0.5627597164716269,MEDIUM,0,,No significant behavioral deviations detected.
+TVS0006,2010-12-07,0.6327507444898556,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (100th percentile)
+RYB0718,2010-12-07,0.5549227896864277,MEDIUM,0,,No significant behavioral deviations detected.
+JMC0925,2010-12-07,0.6067339443697117,MEDIUM,1,unique_recipients_count,
+AJD0074,2010-12-07,0.6168012333635797,MEDIUM,1,avg_email_size_kb,
+KJP0371,2010-12-07,0.5791236147827165,MEDIUM,0,,No significant behavioral deviations detected.
+WVB0539,2010-12-07,0.5977295748055174,MEDIUM,0,,No significant behavioral deviations detected.
+WLV0566,2010-12-07,0.536724340251628,MEDIUM,0,,No significant behavioral deviations detected.
+BWH0813,2010-12-07,0.5145972602396475,MEDIUM,0,,No significant behavioral deviations detected.
+CWR0502,2010-12-07,0.5878643625084055,MEDIUM,0,,No significant behavioral deviations detected.
+ZKS0899,2010-12-07,0.6583534080459286,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (97th percentile)
+EMS0317,2010-12-07,0.5950010756043709,MEDIUM,0,,No significant behavioral deviations detected.
+CWB0065,2010-12-07,0.5369193385478127,MEDIUM,0,,No significant behavioral deviations detected.
+HVF0067,2010-12-07,0.5936286401132791,MEDIUM,0,,No significant behavioral deviations detected.
+PMJ0564,2010-12-07,0.5588148535798423,MEDIUM,0,,No significant behavioral deviations detected.
+KBC0054,2010-12-07,0.5772297729977826,MEDIUM,0,,No significant behavioral deviations detected.
+CLH0703,2010-12-07,0.5952690794911903,MEDIUM,0,,No significant behavioral deviations detected.
+DZC0228,2010-12-07,0.6111026130652775,MEDIUM,0,,No significant behavioral deviations detected.
+NWK0215,2010-12-07,0.5326344174404816,MEDIUM,0,,No significant behavioral deviations detected.
+AHC0142,2010-12-07,0.5741630198135663,MEDIUM,0,,No significant behavioral deviations detected.
+CCH0182,2010-12-07,0.5889754754005102,MEDIUM,0,,No significant behavioral deviations detected.
+RFP0380,2010-12-07,0.5782043691420371,MEDIUM,0,,No significant behavioral deviations detected.
+KPP0452,2010-12-07,0.5861244984656453,MEDIUM,0,,No significant behavioral deviations detected.
+GCC0744,2010-12-07,0.6229261471009487,MEDIUM,0,,No significant behavioral deviations detected.
+ZSL0305,2010-12-07,0.5526460411754746,MEDIUM,0,,No significant behavioral deviations detected.
+IRM0931,2010-12-07,0.5766901632540471,MEDIUM,0,,No significant behavioral deviations detected.
+BWP0202,2010-12-07,0.5467362105481636,MEDIUM,0,,No significant behavioral deviations detected.
+NCK0421,2010-12-07,0.5781704060572512,MEDIUM,0,,No significant behavioral deviations detected.
+MDH0580,2010-12-07,0.5952246563915773,MEDIUM,0,,No significant behavioral deviations detected.
+MFV0897,2010-12-07,0.551595798954474,MEDIUM,0,,No significant behavioral deviations detected.
+THD0448,2010-12-07,0.5531455031767349,MEDIUM,0,,No significant behavioral deviations detected.
+JCV0245,2010-12-07,0.5756031990147281,MEDIUM,0,,No significant behavioral deviations detected.
+KRM0541,2010-12-07,0.5778540808058488,MEDIUM,0,,No significant behavioral deviations detected.
+TPH0474,2010-12-07,0.6387981986165114,MEDIUM,2,email_sent_count,email_sent_count deviates strongly from user's baseline (4.3σ); avg_email_size_kb deviates strongly from user's baseline (3.3σ)
+WGS0516,2010-12-07,0.5918651526947327,MEDIUM,0,,No significant behavioral deviations detected.
+SVS0871,2010-12-07,0.5926720577194045,MEDIUM,1,unique_recipients_count,unique_recipients_count is rare for this day (98th percentile)
+MCT0720,2010-12-07,0.5663229421986639,MEDIUM,0,,No significant behavioral deviations detected.
+ZJS0269,2010-12-07,0.6299799221957431,MEDIUM,1,unique_recipients_count,
+RDM0115,2010-12-07,0.6104158166596637,MEDIUM,1,unique_recipients_count,
+MAD0753,2010-12-07,0.5888928409752925,MEDIUM,0,,No significant behavioral deviations detected.
+NKP0236,2010-12-07,0.6354243078005583,MEDIUM,1,avg_email_size_kb,avg_email_size_kb is rare for this day (96th percentile)
+DGW0752,2010-12-07,0.6120048575417829,MEDIUM,0,,No significant behavioral deviations detected.
+LNS0989,2010-12-07,0.6171836547665231,MEDIUM,0,,No significant behavioral deviations detected.
+FXF0957,2010-12-07,0.5178822665139757,MEDIUM,0,,No significant behavioral deviations detected.
+UFK0208,2010-12-07,0.5939503389664363,MEDIUM,0,,No significant behavioral deviations detected.
+IIL0513,2010-12-07,0.557785418408564,MEDIUM,0,,No significant behavioral deviations detected.
+TIW0299,2010-12-07,0.5377000809033972,MEDIUM,0,,No significant behavioral deviations detected.
+BBH0810,2010-12-07,0.5879039976972044,MEDIUM,1,avg_email_size_kb,
+SAC0687,2010-12-07,0.6622271993051021,MEDIUM,2,unique_recipients_count,after_hours_email_count is rare for this day (99th percentile)
+ASB0796,2010-12-07,0.5866117871179142,MEDIUM,0,,No significant behavioral deviations detected.
+PNH0761,2010-12-07,0.5855303448750989,MEDIUM,0,,No significant behavioral deviations detected.
+DVM0265,2010-12-07,0.6405834684698848,MEDIUM,0,,No significant behavioral deviations detected.
+AGB0186,2010-12-07,0.5276522386970421,MEDIUM,0,,No significant behavioral deviations detected.
+RVF0201,2010-12-07,0.6245358453914702,MEDIUM,1,unique_recipients_count,
+EPW0434,2010-12-07,0.5571646347675456,MEDIUM,0,,No significant behavioral deviations detected.
+HAH0248,2010-12-07,0.5783224345841909,MEDIUM,0,,No significant behavioral deviations detected.
+IMP0530,2010-12-07,0.5634461605739316,MEDIUM,0,,No significant behavioral deviations detected.
+CMB0912,2010-12-07,0.6060530984591861,MEDIUM,0,,No significant behavioral deviations detected.
+MAW0166,2010-12-07,0.5899774448794501,MEDIUM,0,,No significant behavioral deviations detected.
+JLM0364,2010-12-07,0.5637730353330869,MEDIUM,0,,No significant behavioral deviations detected.
+BHW0458,2010-12-07,0.5945529762744481,MEDIUM,0,,No significant behavioral deviations detected.
+SCB0534,2010-12-07,0.5572881282009681,MEDIUM,0,,No significant behavioral deviations detected.
+NSS0876,2010-12-07,0.5902983372193855,MEDIUM,0,,No significant behavioral deviations detected.
+ILC0838,2010-12-07,0.5979637645732575,MEDIUM,0,,No significant behavioral deviations detected.
+BTR0403,2010-12-07,0.5548612882433749,MEDIUM,0,,No significant behavioral deviations detected.

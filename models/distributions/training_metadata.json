@@ -1,0 +1,9 @@
+{
+  "trained_at": "2026-01-07T10:02:17.455454",
+  "train_samples": 228889,
+  "validation_samples": 98096,
+  "users": 1000,
+  "features": 10,
+  "peer_groups": 5,
+  "min_observations": 10
+}

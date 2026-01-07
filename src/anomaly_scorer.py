@@ -16,7 +16,7 @@ import logging
 from typing import Dict, Optional
 from datetime import datetime
 
-from src.distribution_builder import DistributionBuilder
+from .distribution_builder import DistributionBuilder
 
 logger = logging.getLogger(__name__)
 
@@ -225,6 +225,45 @@ class AnomalyScorer:
         return "; ".join(explanations)
 
 
+class RealTimeScorer:
+    """Lightweight real-time interface for scoring single events.
+
+    Uses AnomalyScorer internally but exposes a simple `score_event` method
+    that accepts a dict with keys: `user`, `timestamp`, `features`, and
+    optional `cluster` or `peer_cluster`.
+    """
+
+    def __init__(
+        self,
+        builder: DistributionBuilder,
+        fusion_weights: Optional[Dict[str, float]] = None,
+        alert_threshold: float = 0.7,
+    ):
+        self.builder = builder
+        self.scorer = AnomalyScorer(
+            builder, fusion_weights=fusion_weights, alert_threshold=alert_threshold
+        )
+
+    @property
+    def alert_threshold(self) -> float:
+        return self.scorer.alert_threshold
+
+    @alert_threshold.setter
+    def alert_threshold(self, value: float):
+        self.scorer.alert_threshold = value
+
+    def score_event(self, event: Dict) -> Dict:
+        """Score a single real-time event dict and return the result dict."""
+        user = event.get("user")
+        timestamp = event.get("timestamp")
+        features = event.get("features", {})
+        peer_cluster = event.get("cluster") or event.get("peer_cluster")
+
+        return self.scorer.score_observation(
+            user=user, timestamp=timestamp, features=features, peer_cluster=peer_cluster
+        )
+
+
 # ------------------------------------------------------------------
 # TEST RUN
 # ------------------------------------------------------------------
@@ -245,4 +284,4 @@ if __name__ == "__main__":
     print(results["severity"].value_counts())
 
     results.to_csv("data/results/anomaly_scores.csv", index=False)
-    print("Saved → data/results/anomaly_scores.csv")
+    print("Saved -> data/results/anomaly_scores.csv")

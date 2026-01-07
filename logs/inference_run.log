@@ -1,0 +1,13 @@
+2026-01-06 23:26:13,395 - __main__ - INFO - ============================================================
+2026-01-06 23:26:13,396 - __main__ - INFO - BATCH INFERENCE
+2026-01-06 23:26:13,396 - __main__ - INFO - ============================================================
+2026-01-06 23:26:13,397 - __main__ - INFO - Loading trained baselines -> models/distributions/baselines.pkl
+2026-01-06 23:26:13,532 - src.anomaly_scorer - INFO - AnomalyScorer initialized
+2026-01-06 23:26:13,532 - __main__ - INFO - Loading feature CSV
+2026-01-06 23:26:14,221 - __main__ - INFO - Loaded 326985 observations | Users: 1000
+2026-01-06 23:26:14,222 - __main__ - INFO - Scoring observations
+2026-01-06 23:26:14,223 - src.anomaly_scorer - INFO - Scoring 326,985 observations...
+2026-01-06 23:33:40,910 - __main__ - INFO - Results saved -> results/inference_run
+2026-01-06 23:33:40,911 - __main__ - INFO - ============================================================
+2026-01-06 23:33:40,911 - __main__ - INFO - BATCH INFERENCE COMPLETE
+2026-01-06 23:33:40,912 - __main__ - INFO - ============================================================

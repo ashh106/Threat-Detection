@@ -1,0 +1,9 @@
+import sys
+from pathlib import Path
+
+# Add project root to Python path
+PROJECT_ROOT = Path("D:/vs/VScode/insider_threat_detection")
+sys.path.append(str(PROJECT_ROOT))
+
+# Now this will work
+from src.data_loader import CERTDataLoader

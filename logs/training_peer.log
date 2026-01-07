@@ -1,0 +1,196 @@
+2026-01-07 09:52:57,431 - __main__ - INFO - ============================================================
+2026-01-07 09:52:57,433 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-07 09:52:57,434 - __main__ - INFO - ============================================================
+2026-01-07 09:52:57,437 - __main__ - INFO - [1/5] Loading raw data
+2026-01-07 09:52:57,438 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-07 09:52:57,440 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-07 09:52:57,441 - src.data_loader - INFO - Loading email data...
+2026-01-07 09:55:04,858 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-07 09:55:04,938 - src.data_loader - INFO - Loading psychometric data...
+2026-01-07 09:55:05,052 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-07 09:55:05,295 - __main__ - INFO - Users loaded: 1000
+2026-01-07 09:55:05,295 - __main__ - INFO - [2/5] Feature engineering
+2026-01-07 09:55:05,297 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-07 09:55:05,298 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-07 09:55:05,299 - src.feature_engineering - INFO - Engineering email features...
+2026-01-07 09:55:12,606 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-07 09:55:12,975 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-07 09:55:13,021 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-07 09:55:13,379 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-07 09:55:17,775 - __main__ - INFO - Feature matrix saved -> data\features\behavioral_features.csv
+2026-01-07 09:55:17,776 - __main__ - INFO - Shape: (326985, 14)
+2026-01-07 09:55:17,777 - __main__ - INFO - [3/5] Train / validation split
+2026-01-07 09:55:17,880 - __main__ - INFO - Training samples: 228889
+2026-01-07 09:55:17,881 - __main__ - INFO - Validation samples: 98096
+2026-01-07 09:55:17,881 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-07 09:55:17,884 - src.distribution_builder - INFO - Building personal distributions...
+2026-01-07 09:55:24,752 - src.distribution_builder - INFO - Built personal baselines for 1000 users
+2026-01-07 09:55:24,756 - src.distribution_builder - INFO - Building peer distributions using psychometric clustering...
+2026-01-07 09:55:26,741 - src.distribution_builder - INFO - Built peer baselines for 5 clusters
+2026-01-07 09:55:26,741 - src.distribution_builder - INFO - Building temporal (day-of-week) distributions...
+2026-01-07 09:55:27,038 - src.distribution_builder - INFO - Built temporal baselines for 7 days
+2026-01-07 09:55:27,046 - __main__ - INFO - Personal models: 1000
+2026-01-07 09:55:27,047 - __main__ - INFO - Peer groups: 5
+2026-01-07 09:55:27,047 - __main__ - INFO - Temporal buckets: 7
+2026-01-07 09:55:27,048 - __main__ - INFO - [5/5] Saving models
+2026-01-07 09:55:27,658 - src.distribution_builder - INFO - Saved distributions to models\distributions\baselines.pkl
+2026-01-07 09:55:27,662 - __main__ - INFO - Models saved -> models\distributions\baselines.pkl
+2026-01-07 09:55:27,662 - __main__ - INFO - Running validation scoring
+2026-01-07 09:55:27,662 - src.anomaly_scorer - INFO - AnomalyScorer initialized
+2026-01-07 09:55:27,663 - src.anomaly_scorer - INFO - Scoring 1,000 observations...
+2026-01-07 09:55:30,199 - __main__ - INFO - Validation severity distribution:
+2026-01-07 09:55:30,205 - __main__ - INFO - severity
+MEDIUM    989
+LOW        10
+HIGH        1
+2026-01-07 09:55:30,205 - __main__ - INFO - ============================================================
+2026-01-07 09:55:30,206 - __main__ - INFO - TRAINING COMPLETE
+2026-01-07 09:55:30,208 - __main__ - INFO - ============================================================
+2026-01-07 09:55:30,208 - __main__ - INFO - Next step: python inference.py
+2026-01-07 09:55:38,217 - __main__ - INFO - ============================================================
+2026-01-07 09:55:38,217 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-07 09:55:38,218 - __main__ - INFO - ============================================================
+2026-01-07 09:55:38,218 - __main__ - INFO - [1/5] Loading raw data
+2026-01-07 09:55:38,218 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-07 09:55:38,218 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-07 09:55:38,218 - src.data_loader - INFO - Loading email data...
+2026-01-07 09:57:33,331 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-07 09:57:33,358 - src.data_loader - INFO - Loading psychometric data...
+2026-01-07 09:57:33,454 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-07 09:57:33,584 - __main__ - INFO - Users loaded: 1000
+2026-01-07 09:57:33,585 - __main__ - INFO - [2/5] Feature engineering
+2026-01-07 09:57:33,586 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-07 09:57:33,587 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-07 09:57:33,588 - src.feature_engineering - INFO - Engineering email features...
+2026-01-07 09:57:37,818 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-07 09:57:38,413 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-07 09:57:38,451 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-07 09:57:38,692 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-07 09:57:42,857 - __main__ - INFO - Feature matrix saved -> data\features\behavioral_features.csv
+2026-01-07 09:57:42,858 - __main__ - INFO - Shape: (326985, 14)
+2026-01-07 09:57:42,858 - __main__ - INFO - [3/5] Train / validation split
+2026-01-07 09:57:42,976 - __main__ - INFO - Training samples: 228889
+2026-01-07 09:57:42,977 - __main__ - INFO - Validation samples: 98096
+2026-01-07 09:57:42,977 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-07 09:57:42,978 - src.distribution_builder - INFO - Building personal distributions...
+2026-01-07 09:57:49,146 - src.distribution_builder - INFO - Built personal baselines for 1000 users
+2026-01-07 09:57:49,153 - src.distribution_builder - INFO - Building peer distributions using psychometric clustering...
+2026-01-07 09:57:49,957 - src.distribution_builder - INFO - Built peer baselines for 5 clusters
+2026-01-07 09:57:49,957 - src.distribution_builder - INFO - Building temporal (day-of-week) distributions...
+2026-01-07 09:57:50,262 - src.distribution_builder - INFO - Built temporal baselines for 7 days
+2026-01-07 09:57:50,268 - __main__ - INFO - Personal models: 1000
+2026-01-07 09:57:50,268 - __main__ - INFO - Peer groups: 5
+2026-01-07 09:57:50,269 - __main__ - INFO - Temporal buckets: 7
+2026-01-07 09:57:50,269 - __main__ - INFO - [5/5] Saving models
+2026-01-07 09:57:50,769 - src.distribution_builder - INFO - Saved distributions to models\distributions\baselines.pkl
+2026-01-07 09:57:50,774 - __main__ - INFO - Models saved -> models\distributions\baselines.pkl
+2026-01-07 09:57:50,775 - __main__ - INFO - Running validation scoring
+2026-01-07 09:57:50,776 - src.anomaly_scorer - INFO - AnomalyScorer initialized
+2026-01-07 09:57:50,777 - src.anomaly_scorer - INFO - Scoring 1,000 observations...
+2026-01-07 09:57:52,470 - __main__ - INFO - Validation severity distribution:
+2026-01-07 09:57:52,474 - __main__ - INFO - severity
+MEDIUM    989
+LOW        10
+HIGH        1
+2026-01-07 09:57:52,474 - __main__ - INFO - ============================================================
+2026-01-07 09:57:52,474 - __main__ - INFO - TRAINING COMPLETE
+2026-01-07 09:57:52,474 - __main__ - INFO - ============================================================
+2026-01-07 09:57:52,475 - __main__ - INFO - Next step: python inference.py
+2026-01-07 09:57:59,413 - __main__ - INFO - ============================================================
+2026-01-07 09:57:59,413 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-07 09:57:59,414 - __main__ - INFO - ============================================================
+2026-01-07 09:57:59,414 - __main__ - INFO - [1/5] Loading raw data
+2026-01-07 09:57:59,415 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-07 09:57:59,415 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-07 09:57:59,416 - src.data_loader - INFO - Loading email data...
+2026-01-07 09:59:41,162 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-07 09:59:41,176 - src.data_loader - INFO - Loading psychometric data...
+2026-01-07 09:59:41,218 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-07 09:59:41,358 - __main__ - INFO - Users loaded: 1000
+2026-01-07 09:59:41,358 - __main__ - INFO - [2/5] Feature engineering
+2026-01-07 09:59:41,359 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-07 09:59:41,360 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-07 09:59:41,360 - src.feature_engineering - INFO - Engineering email features...
+2026-01-07 09:59:43,684 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-07 09:59:44,086 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-07 09:59:44,096 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-07 09:59:44,296 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-07 09:59:48,497 - __main__ - INFO - Feature matrix saved -> data\features\behavioral_features.csv
+2026-01-07 09:59:48,498 - __main__ - INFO - Shape: (326985, 14)
+2026-01-07 09:59:48,498 - __main__ - INFO - [3/5] Train / validation split
+2026-01-07 09:59:48,578 - __main__ - INFO - Training samples: 228889
+2026-01-07 09:59:48,579 - __main__ - INFO - Validation samples: 98096
+2026-01-07 09:59:48,580 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-07 09:59:48,580 - src.distribution_builder - INFO - Building personal distributions...
+2026-01-07 09:59:53,916 - src.distribution_builder - INFO - Built personal baselines for 1000 users
+2026-01-07 09:59:53,920 - src.distribution_builder - INFO - Building peer distributions using psychometric clustering...
+2026-01-07 09:59:54,785 - src.distribution_builder - INFO - Built peer baselines for 5 clusters
+2026-01-07 09:59:54,785 - src.distribution_builder - INFO - Building temporal (day-of-week) distributions...
+2026-01-07 09:59:55,039 - src.distribution_builder - INFO - Built temporal baselines for 7 days
+2026-01-07 09:59:55,045 - __main__ - INFO - Personal models: 1000
+2026-01-07 09:59:55,045 - __main__ - INFO - Peer groups: 5
+2026-01-07 09:59:55,045 - __main__ - INFO - Temporal buckets: 7
+2026-01-07 09:59:55,046 - __main__ - INFO - [5/5] Saving models
+2026-01-07 09:59:55,814 - src.distribution_builder - INFO - Saved distributions to models\distributions\baselines.pkl
+2026-01-07 09:59:55,816 - __main__ - INFO - Models saved -> models\distributions\baselines.pkl
+2026-01-07 09:59:55,816 - __main__ - INFO - Running validation scoring
+2026-01-07 09:59:55,816 - src.anomaly_scorer - INFO - AnomalyScorer initialized
+2026-01-07 09:59:55,817 - src.anomaly_scorer - INFO - Scoring 1,000 observations...
+2026-01-07 09:59:57,395 - __main__ - INFO - Validation severity distribution:
+2026-01-07 09:59:57,400 - __main__ - INFO - severity
+MEDIUM    989
+LOW        10
+HIGH        1
+2026-01-07 09:59:57,400 - __main__ - INFO - ============================================================
+2026-01-07 09:59:57,400 - __main__ - INFO - TRAINING COMPLETE
+2026-01-07 09:59:57,400 - __main__ - INFO - ============================================================
+2026-01-07 09:59:57,401 - __main__ - INFO - Next step: python inference.py
+2026-01-07 10:00:04,353 - __main__ - INFO - ============================================================
+2026-01-07 10:00:04,354 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-07 10:00:04,355 - __main__ - INFO - ============================================================
+2026-01-07 10:00:04,355 - __main__ - INFO - [1/5] Loading raw data
+2026-01-07 10:00:04,356 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-07 10:00:04,356 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-07 10:00:04,356 - src.data_loader - INFO - Loading email data...
+2026-01-07 10:01:57,789 - src.data_loader - INFO - Loaded 2,629,979 email records
+2026-01-07 10:01:57,819 - src.data_loader - INFO - Loading psychometric data...
+2026-01-07 10:01:57,956 - src.data_loader - INFO - Loaded psychometric data for 1,000 users
+2026-01-07 10:01:58,270 - __main__ - INFO - Users loaded: 1000
+2026-01-07 10:01:58,271 - __main__ - INFO - [2/5] Feature engineering
+2026-01-07 10:01:58,273 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-07 10:01:58,275 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-07 10:01:58,277 - src.feature_engineering - INFO - Engineering email features...
+2026-01-07 10:02:03,628 - src.feature_engineering - INFO - Created 5 email features for 326,985 user-days
+2026-01-07 10:02:04,009 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-07 10:02:04,039 - src.feature_engineering - INFO - Prepared psychometric features for 1,000 users
+2026-01-07 10:02:04,269 - src.feature_engineering - INFO - Unified matrix shape: 326,985 rows × 14 features
+2026-01-07 10:02:08,723 - __main__ - INFO - Feature matrix saved -> data\features\behavioral_features.csv
+2026-01-07 10:02:08,725 - __main__ - INFO - Shape: (326985, 14)
+2026-01-07 10:02:08,726 - __main__ - INFO - [3/5] Train / validation split
+2026-01-07 10:02:08,852 - __main__ - INFO - Training samples: 228889
+2026-01-07 10:02:08,853 - __main__ - INFO - Validation samples: 98096
+2026-01-07 10:02:08,853 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-07 10:02:08,856 - src.distribution_builder - INFO - Building personal distributions...
+2026-01-07 10:02:15,562 - src.distribution_builder - INFO - Built personal baselines for 1000 users
+2026-01-07 10:02:15,567 - src.distribution_builder - INFO - Building peer distributions using psychometric clustering...
+2026-01-07 10:02:16,535 - src.distribution_builder - INFO - Built peer baselines for 5 clusters
+2026-01-07 10:02:16,535 - src.distribution_builder - INFO - Building temporal (day-of-week) distributions...
+2026-01-07 10:02:16,848 - src.distribution_builder - INFO - Built temporal baselines for 7 days
+2026-01-07 10:02:16,857 - __main__ - INFO - Personal models: 1000
+2026-01-07 10:02:16,857 - __main__ - INFO - Peer groups: 5
+2026-01-07 10:02:16,858 - __main__ - INFO - Temporal buckets: 7
+2026-01-07 10:02:16,859 - __main__ - INFO - [5/5] Saving models
+2026-01-07 10:02:17,454 - src.distribution_builder - INFO - Saved distributions to models\distributions\baselines.pkl
+2026-01-07 10:02:17,460 - __main__ - INFO - Models saved -> models\distributions\baselines.pkl
+2026-01-07 10:02:17,460 - __main__ - INFO - Running validation scoring
+2026-01-07 10:02:17,461 - src.anomaly_scorer - INFO - AnomalyScorer initialized
+2026-01-07 10:02:17,462 - src.anomaly_scorer - INFO - Scoring 1,000 observations...
+2026-01-07 10:02:19,637 - __main__ - INFO - Validation severity distribution:
+2026-01-07 10:02:19,641 - __main__ - INFO - severity
+MEDIUM    989
+LOW        10
+HIGH        1
+2026-01-07 10:02:19,642 - __main__ - INFO - ============================================================
+2026-01-07 10:02:19,642 - __main__ - INFO - TRAINING COMPLETE
+2026-01-07 10:02:19,643 - __main__ - INFO - ============================================================
+2026-01-07 10:02:19,643 - __main__ - INFO - Next step: python inference.py

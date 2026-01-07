@@ -180,4 +180,4 @@ if __name__ == "__main__":
     print(f"Total features: {features.shape[1]}")
 
     features.to_csv("data/features/behavioral_features.csv", index=False)
-    print("\nSaved → data/features/behavioral_features.csv")
+    print("\nSaved -> data/features/behavioral_features.csv")

@@ -1,12 +1,7 @@
 """
-Training Pipeline (Aligned Version)
+Training Pipeline (FINAL FIXED VERSION)
 
-Builds behavioral baselines for insider-threat detection using:
-- Email behavior
-- Psychometric traits
-- Unsupervised statistical modeling
-
-Author: Behavioral Analytics Team
+Email + Psychometric Insider Threat Detection
 """
 
 import argparse
@@ -15,7 +10,6 @@ import yaml
 from pathlib import Path
 from datetime import datetime
 import json
-import pandas as pd
 
 from src.data_loader import CERTDataLoader
 from src.feature_engineering import BehavioralFeatureEngineer
@@ -28,10 +22,19 @@ from src.anomaly_scorer import AnomalyScorer
 # ------------------------------------------------------------------
 def setup_logging(log_file: str):
     Path(log_file).parent.mkdir(parents=True, exist_ok=True)
+    # File handler uses UTF-8; ensure the console stream handler writes UTF-8
+    import sys
+    import io
+
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    stream_handler = logging.StreamHandler(
+        stream=io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    )
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-        handlers=[logging.FileHandler(log_file), logging.StreamHandler()],
+        handlers=[file_handler, stream_handler],
     )
 
 
@@ -74,17 +77,13 @@ def train(config: dict):
 
     features = engineer.create_unified_feature_matrix(raw_data)
 
-    # Optional rolling features
-    if config["performance"].get("cache_enabled", False):
-        features = engineer.add_rolling_features(features, window=7)
-
     features_dir = Path(config["data"]["features_dir"])
     features_dir.mkdir(parents=True, exist_ok=True)
 
     features_path = features_dir / "behavioral_features.csv"
     features.to_csv(features_path, index=False)
 
-    logger.info(f"Feature matrix saved → {features_path}")
+    logger.info(f"Feature matrix saved -> {features_path}")
     logger.info(f"Shape: {features.shape}")
 
     # --------------------------------------------------------------
@@ -106,18 +105,25 @@ def train(config: dict):
     # --------------------------------------------------------------
     logger.info("[4/5] Building behavioral baselines")
 
-    builder = DistributionBuilder(
-        min_observations=config["distributions"]["min_observations"]
-    )
+    # SAFE DEFAULT (because config.yaml has no `distributions` section)
+    min_obs = 10
 
+    builder = DistributionBuilder(min_observations=min_obs)
+
+    # ✅ CORRECT METHOD NAMES
     builder.build_personal_distributions(train_df)
 
-    builder.build_peer(train_df, raw_data["psychometric"])
-    builder.build_temporal(train_df)
+    if "psychometric" in raw_data:
+        builder.build_peer_distributions(
+            train_df,
+            raw_data["psychometric"]
+        )
 
-    logger.info(f"Personal models: {len(builder.personal)}")
-    logger.info(f"Peer clusters: {len(builder.peer)}")
-    logger.info(f"Temporal buckets: {len(builder.temporal)}")
+    builder.build_temporal_distributions(train_df)
+
+    logger.info(f"Personal models: {len(builder.personal_distributions)}")
+    logger.info(f"Peer groups: {len(builder.peer_distributions)}")
+    logger.info(f"Temporal buckets: {len(builder.temporal_distributions)}")
 
     # --------------------------------------------------------------
     # STEP 5: SAVE MODELS & METADATA
@@ -134,16 +140,16 @@ def train(config: dict):
         "trained_at": datetime.now().isoformat(),
         "train_samples": len(train_df),
         "validation_samples": len(val_df),
-        "users": len(builder.personal),
+        "users": len(builder.personal_distributions),
         "features": len(builder.feature_list),
-        "peer_clusters": len(builder.peer),
-        "config": config,
+        "peer_groups": len(builder.peer_distributions),
+        "min_observations": min_obs,
     }
 
     with open(models_dir / "training_metadata.json", "w") as f:
         json.dump(metadata, f, indent=2)
 
-    logger.info(f"Models saved → {model_path}")
+    logger.info(f"Models saved -> {model_path}")
 
     # --------------------------------------------------------------
     # VALIDATION SCORING
@@ -162,8 +168,7 @@ def train(config: dict):
     logger.info("=" * 60)
     logger.info("TRAINING COMPLETE")
     logger.info("=" * 60)
-    logger.info(f"Next step: python inference.py")
-    logger.info(f"Dashboard: python visualize.py")
+    logger.info("Next step: python inference.py")
 
 
 # ------------------------------------------------------------------

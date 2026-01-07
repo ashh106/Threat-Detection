@@ -19,7 +19,7 @@ from typing import Optional
 from datetime import datetime
 from pathlib import Path
 
-from distribution_builder import DistributionBuilder
+from .distribution_builder import DistributionBuilder
 
 
 logger = logging.getLogger(__name__)
@@ -190,7 +190,7 @@ class BehavioralVisualizer:
 
         self._create_html_report(scored_df, save_dir)
 
-        logger.info(f"Dashboard created → {save_dir}")
+        logger.info(f"Dashboard created -> {save_dir}")
 
     # ------------------------------------------------------------------
     # HTML REPORT
