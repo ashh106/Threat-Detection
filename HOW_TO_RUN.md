@@ -101,6 +101,23 @@ canonical-metadata → [cognitive_update] → [phase_hmm] → cognitive-state
 
 ## 🎯 **NEXT STEPS**
 
+### Integration orchestrator (new)
+You can run a single script that trains the distribution-based model and optionally launches the Stage-3 and Stage-4 demo flows (parso components):
+
+```bash
+# Train only
+python scripts/integrate_pipeline.py --config config.yaml
+
+# Train and run Stage-3 demo
+python scripts/integrate_pipeline.py --stage3
+
+# Train and run both Stage-3 and Stage-4 demos
+python scripts/integrate_pipeline.py --stage3 --stage4
+```
+
+Note: Stage-3 and Stage-4 demo modes are mock/demo modes and do not require a real Kafka cluster. They call the integrated wrappers in `src/extensions/parso`.
+
+
 ### **For Production:**
 1. **Install Kafka**: Set up real Kafka cluster
 2. **Configure Topics**: Create canonical-metadata and cognitive-state topics
