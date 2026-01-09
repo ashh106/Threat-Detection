@@ -29,14 +29,12 @@ from typing import Dict, Any
 from dataclasses import dataclass
 
 # Import Stage-3 components
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'intent_engine'))
-
-from state import CognitiveState
-from cognitive_update import CognitiveUpdater
-from consumer import CanonicalConsumer
-from config import IntentEngineConfig
+from src.extensions.parso.intent_engine.state import CognitiveState
+from src.extensions.parso.intent_engine.cognitive_update import CognitiveUpdater
+from src.extensions.parso.intent_engine.consumer import CanonicalConsumer
+from src.extensions.parso.intent_engine.config import IntentEngineConfig
+# Use PhaseInference implementation from intent_engine (disabled HMM is default)
+from src.extensions.parso.intent_engine.phase_hmm_disabled import PhaseInference
 
 # Configure logging
 logging.basicConfig(
