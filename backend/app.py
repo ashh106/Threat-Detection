@@ -73,4 +73,5 @@ if __name__ == '__main__':
             demo = Incident(title='Demo Alert: Suspicious Export', details='Large export detected (50GB).', confidence=0.94)
             db.session.add(demo)
             db.session.commit()
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    # Run without the reloader in dev to avoid forking issues in some Windows environments
+    app.run(host='0.0.0.0', port=8000, debug=False, use_reloader=False)

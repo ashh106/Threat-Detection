@@ -1,0 +1,5 @@
+user,date,anomaly_score,severity,flagged_count,top_feature,explanation
+user1,2020-01-09,0.5,MEDIUM,0,,No significant behavioral deviations detected.
+user1,2020-01-10,0.5,MEDIUM,0,,No significant behavioral deviations detected.
+user1,2020-01-11,0.5,MEDIUM,0,,No significant behavioral deviations detected.
+user1,2020-01-12,0.5,MEDIUM,0,,No significant behavioral deviations detected.
