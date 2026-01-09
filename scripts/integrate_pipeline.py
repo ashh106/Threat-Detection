@@ -21,10 +21,22 @@ def main():
     parser.add_argument("--log-file", default="logs/integrate_pipeline.log")
     parser.add_argument("--stage3", action="store_true", help="Run Stage-3 demo after training")
     parser.add_argument("--stage4", action="store_true", help="Run Stage-4 demo after training")
+    parser.add_argument("--relax", action="store_true", help="Relax distribution thresholds for demo runs (lower min_observations/min_peers)")
 
     args = parser.parse_args()
     setup_logging(args.log_file)
     config = load_config(args.config)
+
+    # If requested, relax distribution thresholds to allow small-demo training runs
+    if args.relax:
+        import logging as _logging
+        _logging.getLogger(__name__).info("Relaxing distribution thresholds for demo: setting min_observations=1 and peer_groups.min_peers=1")
+        if "distributions" not in config:
+            config["distributions"] = {}
+        config["distributions"]["min_observations"] = 1
+        if "peer_groups" not in config:
+            config["peer_groups"] = {}
+        config["peer_groups"]["min_peers"] = 1
 
     # Ensure required paths exist
     Path(config["data"]["raw_dir"]).mkdir(parents=True, exist_ok=True)

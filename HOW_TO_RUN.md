@@ -113,6 +113,9 @@ python scripts/integrate_pipeline.py --stage3
 
 # Train and run both Stage-3 and Stage-4 demos
 python scripts/integrate_pipeline.py --stage3 --stage4
+
+# For small/demo datasets (e.g., local fixtures), relax distribution thresholds so baselines are built:
+python scripts/integrate_pipeline.py --stage3 --stage4 --relax
 ```
 
 Note: Stage-3 and Stage-4 demo modes are mock/demo modes and do not require a real Kafka cluster. They call the integrated wrappers in `src/extensions/parso`.
