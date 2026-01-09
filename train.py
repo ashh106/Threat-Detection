@@ -105,8 +105,10 @@ def train(config: dict):
     # --------------------------------------------------------------
     logger.info("[4/5] Building behavioral baselines")
 
-    # SAFE DEFAULT (because config.yaml has no `distributions` section)
+    # SAFE DEFAULT (can be overridden in config)
     min_obs = 10
+    if "distributions" in config and "min_observations" in config["distributions"]:
+        min_obs = int(config["distributions"]["min_observations"])
 
     builder = DistributionBuilder(min_observations=min_obs)
 
