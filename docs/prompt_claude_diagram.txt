@@ -1,0 +1,15 @@
+Prompt for Claude (or other diagram generator):
+
+"Generate a clear structural architecture diagram for the Insider Threat Detection behavioral model. Show these layers and data flows:
+
+- Raw Data Sources: Authentication logs (timestamps, IP, device), File access metadata, Email metadata, Psychometric/HR data (optional).
+- Feature Engineering: aggregation (day-window), email-derived features, psychometric features → unified feature matrix.
+- Distribution Builder: builds Personal Baselines, Peer Group Baselines (psychometric clustering), and Temporal (day-of-week) baselines; outputs baselines.pkl.
+- Scoring Engine: AnomalyScorer (personal/peer/temporal fusion) → anomaly_score, severity, explanation.
+- Cognitive Intent Engine (Stage‑3): Consumes canonical events → EMA cognitive state updates → emits 8D observation vectors.
+- Behavioral Phase Inference (Stage‑4): Online Gaussian HMM that consumes Stage-3 observations → per-user phase probabilities and inferred phase (RECON, PREP, EXFIL).
+- Storage & API: Baselines pickle, results CSVs, REST API (Flask) serving incidents and compatibility checks.
+- Frontend Dashboard: React + Tailwind UI showing Live Simulator, Timeline (Recharts), Incident Card.
+- DevOps: Docker compose for frontend/backend, CI smoke tests, optional Kafka for production Stage-3 ingestion, Application Insights for telemetry.
+
+Request a diagram with nodes for each component, arrows indicating dataflow, and short text annotations for algorithms (EMA, Gaussian HMM, distribution methods). Use a left-to-right layout and color-code: Data (blue), Models (green), Real-time Inference (orange), UI/API (teal), Infra (gray)."

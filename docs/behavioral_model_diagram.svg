@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8" />
+    </marker>
+    <style>
+      .bg { fill: #0F172A; }
+      .text { fill: #F8FAFC; font-family: Inter, Arial, sans-serif; font-size: 13px }
+      .title { font-size: 18px; font-weight: 700 }
+      .node { rx: 8; ry: 8; stroke-width: 1.5 }
+      .label { font-weight: 600 }
+      .small { font-size: 11px; fill: #cbd5e1 }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1200" height="720" />
+
+  <!-- Title -->
+  <text x="36" y="40" class="text title">InsiderGuard — Behavioral Model Architecture</text>
+  <text x="36" y="62" class="small">Data → Feature Engineering → Baselines → Scoring → Alerts. Stage-3 (Cognitive) feeds Stage-4 (HMM) for phase inference.</text>
+
+  <!-- Left column: Data Sources (blue) -->
+  <g>
+    <rect class="node" x="36" y="96" width="220" height="160" fill="#3b82f6" stroke="#1e40af" />
+    <text x="48" y="124" class="text label">Data Sources</text>
+    <text x="48" y="146" class="small">• Authentication logs (TS, IP, Device)</text>
+    <text x="48" y="164" class="small">• File access metadata (open/read/delete)</text>
+    <text x="48" y="182" class="small">• Email metadata (subject, size)</text>
+    <text x="48" y="200" class="small">• Psychometric / HR data (optional)</text>
+  </g>
+
+  <!-- Feature Engineering (green) -->
+  <g>
+    <rect class="node" x="288" y="96" width="220" height="120" fill="#10b981" stroke="#047857" />
+    <text x="300" y="124" class="text label">Feature Engineering</text>
+    <text x="300" y="146" class="small">Aggregation (day window), email features,</text>
+    <text x="300" y="162" class="small">psychometric features → Unified matrix</text>
+  </g>
+
+  <!-- Distribution Builder (green) -->
+  <g>
+    <rect class="node" x="548" y="68" width="220" height="140" fill="#059669" stroke="#064e3b" />
+    <text x="560" y="96" class="text label">Distribution Builder</text>
+    <text x="560" y="118" class="small">Personal baselines (μ,σ),</text>
+    <text x="560" y="136" class="small">Peer clusters (psychometric), Temporal baselines</text>
+    <text x="560" y="154" class="small">→ baselines.pkl</text>
+  </g>
+
+  <!-- Scoring Engine (orange) -->
+  <g>
+    <rect class="node" x="820" y="96" width="220" height="120" fill="#f59e0b" stroke="#b45309" />
+    <text x="832" y="124" class="text label">Scoring Engine</text>
+    <text x="832" y="146" class="small">Per-feature z-scores/percentiles</text>
+    <text x="832" y="162" class="small">Fusion: personal(0.6), peer(0.25), temporal(0.15)</text>
+    <text x="832" y="178" class="small">→ anomaly_score, explanation</text>
+  </g>
+
+  <!-- Stage-3 Cognitive (orange) -->
+  <g>
+    <rect class="node" x="288" y="240" width="220" height="120" fill="#ffb86c" stroke="#9a4d02" />
+    <text x="300" y="268" class="text label">Stage-3: Cognitive Engine</text>
+    <text x="300" y="290" class="small">Canonical events → EMA updates</text>
+    <text x="300" y="306" class="small">→ 8D cognitive observation vectors</text>
+  </g>
+
+  <!-- Stage-4 HMM (orange/red) -->
+  <g>
+    <rect class="node" x="548" y="240" width="220" height="140" fill="#f97316" stroke="#7c2d12" />
+    <text x="560" y="268" class="text label">Stage-4: HMM Phase Inference</text>
+    <text x="560" y="290" class="small">Gaussian HMM (K states), online inference</text>
+    <text x="560" y="306" class="small">→ phase probabilities, dominant phase, confidence</text>
+  </g>
+
+  <!-- Alerts & Storage (teal) -->
+  <g>
+    <rect class="node" x="820" y="260" width="220" height="110" fill="#06b6d4" stroke="#0b838c" />
+    <text x="832" y="288" class="text label">Alerting & Storage / API</text>
+    <text x="832" y="308" class="small">Incidents DB (SQLite), results CSVs</text>
+    <text x="832" y="324" class="small">Flask API: /api/incidents, /api/compatibility</text>
+  </g>
+
+  <!-- Frontend (teal) -->
+  <g>
+    <rect class="node" x="820" y="400" width="220" height="110" fill="#06b6d4" stroke="#115e62" />
+    <text x="832" y="428" class="text label">Frontend Dashboard</text>
+    <text x="832" y="448" class="small">React + Tailwind, Live Simulator, Timeline</text>
+    <text x="832" y="464" class="small">Incident Card, explanations</text>
+  </g>
+
+  <!-- Infra box (gray) -->
+  <g>
+    <rect class="node" x="36" y="540" width="1000" height="120" fill="#9ca3af" stroke="#6b7280" />
+    <text x="48" y="568" class="text label">Infrastructure & Ops</text>
+    <text x="48" y="588" class="small">Docker Compose, Kafka (optional prod), App Insights (Azure), CI pipelines</text>
+  </g>
+
+  <!-- Arrows: Data -> Feature -> Dist -> Scoring -->
+  <line x1="256" y1="176" x2="288" y2="156" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="508" y1="136" x2="548" y2="136" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="768" y1="156" x2="820" y2="156" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Arrows: Stage-3 -> Stage-4 -->
+  <line x1="508" y1="296" x2="548" y2="296" stroke="#f97316" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Arrow: Scoring -> Alerts -->
+  <line x1="940" y1="156" x2="940" y2="260" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Arrow: HMM -> Alerts -->
+  <line x1="768" y1="300" x2="820" y2="300" stroke="#f97316" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Arrow: Alerts -> Frontend -->
+  <line x1="940" y1="370" x2="940" y2="400" stroke="#06b6d4" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Arrow: Infra line to all components (dashed) -->
+  <line x1="72" y1="560" x2="72" y2="300" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrow)" />
+
+  <!-- Legend -->
+  <rect x="980" y="36" width="180" height="120" rx="8" fill="#0b1220" stroke="#334155" />
+  <text x="996" y="56" class="text label">Legend</text>
+  <g>
+    <rect x="996" y="68" width="12" height="12" fill="#3b82f6" />
+    <text x="1014" y="78" class="small">Data Sources</text>
+
+    <rect x="996" y="86" width="12" height="12" fill="#10b981" />
+    <text x="1014" y="96" class="small">Feature / Baselines</text>
+
+    <rect x="996" y="104" width="12" height="12" fill="#f59e0b" />
+    <text x="1014" y="114" class="small">Scoring / Real-time</text>
+  </g>
+
+</svg>
