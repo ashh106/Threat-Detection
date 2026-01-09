@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Behavioral Anomaly Detection for Insider Threat Detection
 A production-ready, explainable behavioral analytics system for detecting insider threats and data leakage using statistical methods and unsupervised learning.
 
@@ -457,3 +458,4 @@ Review the troubleshooting section
 Check logs in logs/ directory
 Built for Microsoft Cybersecurity AI Hackathon 🎯
 
+**Note:** This README was merged with content from `parso/change` (Insider-Threat-Detection-via-Cognition-).
