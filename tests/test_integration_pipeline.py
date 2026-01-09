@@ -15,6 +15,7 @@ def test_train_and_score(tmp_path):
             "files": {"email": "email.csv", "psychometric": "psychometric.csv"}
         },
         "features": {"aggregation_window": "1D"},
+        "distributions": {"min_observations": 1},
     }
 
     Path(cfg["data"]["features_dir"]).mkdir(parents=True, exist_ok=True)
