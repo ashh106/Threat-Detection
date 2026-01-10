@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from datetime import datetime
 import os
+import csv
 
 app = Flask(__name__)
 CORS(app)
@@ -62,6 +63,59 @@ def check_compat():
     score = min(100,score)
     status = 'High' if score >= 80 else 'Moderate' if score >= 50 else 'Low'
     return jsonify({'score':score, 'status': status})
+
+
+@app.route('/api/anomalies')
+def anomalies():
+    """Return behavioral anomaly scores from results/anomaly_scores.csv.
+
+    Optional query params:
+      - severity: comma-separated list, e.g. "HIGH,CRITICAL"
+      - limit: max number of rows to return (default 100)
+    """
+    severity_filter = request.args.get('severity')
+    if severity_filter:
+        allowed = {s.strip().upper() for s in severity_filter.split(',') if s.strip()}
+    else:
+        allowed = None
+
+    try:
+        limit = int(request.args.get('limit', '100'))
+    except ValueError:
+        limit = 100
+
+    results_path = os.path.join(ROOT_DIR, 'results', 'anomaly_scores.csv')
+    if not os.path.exists(results_path):
+        # No results yet – return empty list instead of error so frontend can handle gracefully
+        return jsonify([])
+
+    items = []
+    with open(results_path, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            sev = (row.get('severity') or '').upper()
+            if allowed and sev not in allowed:
+                continue
+
+            try:
+                score = float(row.get('anomaly_score', 0.0))
+            except ValueError:
+                score = 0.0
+
+            item = {
+                'user': row.get('user') or 'UNKNOWN',
+                'date': row.get('date'),
+                'anomaly_score': score,
+                'severity': sev or 'UNKNOWN',
+                'flagged_count': int(row.get('flagged_count') or 0),
+                'top_feature': row.get('top_feature') or '',
+                'explanation': row.get('explanation') or '',
+            }
+            items.append(item)
+            if len(items) >= limit:
+                break
+
+    return jsonify(items)
 
 if __name__ == '__main__':
     os.makedirs('data', exist_ok=True)
