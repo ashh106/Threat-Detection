@@ -47,7 +47,7 @@ export default function DataCompatibility(){
               <span>File Access Metadata <span className="text-xs text-slate-400">(Open, Read, Delete)</span></span>
             </label>
 
-            <div className="mt-2 text-xs text-slate-400">All PII is Hashed & Salted (SHA-256)</div>
+            <div className="mt-2 text-xs text-slate-500">All PII is hashed & salted (SHA-256)</div>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export default function DataCompatibility(){
                 <div className="text-xs text-slate-400">Subject lines, Attachment sizes</div>
               </div>
               <div className="flex items-center gap-2">
-                <div className="text-xs bg-slate-700 px-2 py-1 rounded text-slate-200">AES-256</div>
+                <div className="text-xs bg-gray-100 px-2 py-1 rounded text-slate-700">AES-256</div>
                 <input type="checkbox" checked={enh.email} onChange={(e)=>setEnh(s=>({...s,email:e.target.checked}))} />
               </div>
             </label>
@@ -71,7 +71,7 @@ export default function DataCompatibility(){
                 <div className="text-xs text-slate-400">Performance reviews, Sentiment</div>
               </div>
               <div className="flex items-center gap-2">
-                <div className="text-xs bg-slate-700 px-2 py-1 rounded text-slate-200">E2E</div>
+                <div className="text-xs bg-gray-100 px-2 py-1 rounded text-slate-700">E2E</div>
                 <input type="checkbox" checked={enh.psych} onChange={(e)=>setEnh(s=>({...s,psych:e.target.checked}))} />
               </div>
             </label>
@@ -82,7 +82,7 @@ export default function DataCompatibility(){
                 <div className="text-xs text-slate-400">Connection events</div>
               </div>
               <div className="flex items-center gap-2">
-                <div className="text-xs bg-slate-700 px-2 py-1 rounded text-slate-200">Anon IDs</div>
+                <div className="text-xs bg-gray-100 px-2 py-1 rounded text-slate-700">Anon IDs</div>
                 <input type="checkbox" checked={enh.usb} onChange={(e)=>setEnh(s=>({...s,usb:e.target.checked}))} />
               </div>
             </label>
@@ -92,14 +92,27 @@ export default function DataCompatibility(){
 
       <div className="mt-4">
         <div className="text-xs text-slate-400">Compatibility Score</div>
-        <div className="w-full bg-[#0b1220] rounded h-3 mt-2">
-          <div className="h-3 rounded" style={{width: `${score}%`, background: `linear-gradient(90deg, #10B981, #F59E0B, #EF4444)`}} />
+        <div className="w-full bg-gray-100 rounded h-3 mt-2">
+          <div className="h-3 rounded bg-gray-400" style={{width: `${score}%`}} />
         </div>
         <div className="mt-2 text-sm">{score >= 80 ? 'High' : score >= 50 ? 'Moderate' : 'Low'}</div>
 
         <div className="mt-4 flex items-center gap-3">
-          <button onClick={testRemote} className="px-3 py-2 rounded bg-slate-700 hover:shadow-[0_0_8px_rgba(99,102,241,0.6)]">Test Compatibility</button>
-          {remoteStatus && (<div className="text-sm">{remoteStatus.error ? <span className="text-rose-400">Error: {remoteStatus.error}</span> : <span>Remote: {remoteStatus.score} ({remoteStatus.status})</span>}</div>)}
+          <button
+            onClick={testRemote}
+            className="px-3 py-2 rounded border border-card-border bg-white text-slate-800 hover:bg-gray-50"
+          >
+            Test compatibility
+          </button>
+          {remoteStatus && (
+            <div className="text-sm">
+              {remoteStatus.error ? (
+                <span className="text-red-600">Error: {remoteStatus.error}</span>
+              ) : (
+                <span className="text-slate-800">Backend: {remoteStatus.score} ({remoteStatus.status})</span>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

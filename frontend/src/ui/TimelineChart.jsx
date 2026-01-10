@@ -12,20 +12,13 @@ export default function TimelineChart(){
     <div className="mt-4 h-64">
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart data={data} margin={{top:10,right:30,left:0,bottom:0}}>
-          <defs>
-            <linearGradient id="colorPhase" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#EF4444" stopOpacity={0.9}/>
-              <stop offset="60%" stopColor="#F59E0B" stopOpacity={0.6}/>
-              <stop offset="100%" stopColor="#10B981" stopOpacity={0.2}/>
-            </linearGradient>
-          </defs>
-          <XAxis dataKey="day" tick={{fontSize:10}} stroke="#94a3b8" />
-          <Tooltip contentStyle={{background:'#0f172a', borderColor:'#334155'}} />
-          <Area type="monotone" dataKey="value" stroke="#0ea5a4" fill="url(#colorPhase)" />
+          <XAxis dataKey="day" tick={{fontSize:10}} stroke="#9CA3AF" />
+          <Tooltip contentStyle={{background:'#FFFFFF', borderColor:'#E5E7EB', fontSize:11}} />
+          <Area type="monotone" dataKey="value" stroke="#4B5563" fill="#E5E7EB" />
         </AreaChart>
       </ResponsiveContainer>
       <div className="mt-3 flex items-center justify-end">
-        <div className="bg-rose-600 animate-pulse px-3 py-2 rounded font-bold">STAGE: EXFILTRATION</div>
+        <div className="px-3 py-1 rounded border border-card-border text-[11px] text-slate-700 bg-white">Phase progression (demo)</div>
       </div>
     </div>
   )

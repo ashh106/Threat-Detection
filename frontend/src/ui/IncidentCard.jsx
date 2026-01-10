@@ -18,7 +18,7 @@ export default function IncidentCard({incidents=[]}){
         ) : (
           <ul className="space-y-3">
             {incidents.map(i=> (
-              <li key={i.id} className="bg-[#0b1220] p-2 rounded">
+              <li key={i.id} className="bg-gray-50 p-2 rounded border border-card-border/60">
                 <div className="flex items-center justify-between">
                   <div className="text-sm font-semibold">{i.title}</div>
                   <div className="text-xs text-slate-300">{Math.round(i.confidence*100)}%</div>
@@ -31,8 +31,8 @@ export default function IncidentCard({incidents=[]}){
 
         <div className="mt-4">
           <div className="text-xs text-slate-400">Model Confidence</div>
-          <div className="w-full bg-[#0b1220] rounded h-3 mt-2">
-            <div className="h-3 rounded bg-emerald-500" style={{width:'94%'}} />
+          <div className="w-full bg-gray-100 rounded h-3 mt-2">
+            <div className="h-3 rounded bg-gray-400" style={{width:'94%'}} />
           </div>
         </div>
       </div>

@@ -3,13 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#0F172A',
-        card: '#1E293B',
-        cardBorder: '#334155',
-        text: '#F8FAFC',
-        safe: '#10B981',
-        warning: '#F59E0B',
-        critical: '#EF4444'
+        background: '#F3F4F6', // light gray
+        card: '#FFFFFF',       // white cards
+        cardBorder: '#E5E7EB', // light border
+        text: '#111827'        // dark gray text
       }
     }
   },
