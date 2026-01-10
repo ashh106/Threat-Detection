@@ -414,3 +414,50 @@ MEDIUM    4
 2026-01-10 02:20:01,948 - __main__ - INFO - TRAINING COMPLETE
 2026-01-10 02:20:01,948 - __main__ - INFO - ============================================================
 2026-01-10 02:20:01,948 - __main__ - INFO - Next step: python inference.py
+2026-01-10 09:56:40,824 - __main__ - INFO - ============================================================
+2026-01-10 09:56:40,827 - __main__ - INFO - INSIDER THREAT DETECTION – TRAINING PIPELINE
+2026-01-10 09:56:40,828 - __main__ - INFO - ============================================================
+2026-01-10 09:56:40,828 - __main__ - INFO - [1/5] Loading raw data
+2026-01-10 09:56:40,828 - src.data_loader - INFO - Initialized CERTDataLoader with raw_data_dir=data/raw
+2026-01-10 09:56:40,828 - src.data_loader - INFO - Loading all available CERT data...
+2026-01-10 09:56:40,829 - src.data_loader - INFO - Loading email data...
+2026-01-10 09:56:40,886 - src.data_loader - INFO - Loaded 12 email records
+2026-01-10 09:56:40,886 - src.data_loader - INFO - Loading psychometric data...
+2026-01-10 09:56:40,894 - src.data_loader - INFO - Loaded psychometric data for 2 users
+2026-01-10 09:56:40,900 - __main__ - INFO - Users loaded: 2
+2026-01-10 09:56:40,901 - __main__ - INFO - [2/5] Feature engineering
+2026-01-10 09:56:40,902 - src.feature_engineering - INFO - FeatureEngineer initialized (window=1D)
+2026-01-10 09:56:40,903 - src.feature_engineering - INFO - Creating unified feature matrix...
+2026-01-10 09:56:40,904 - src.feature_engineering - INFO - Engineering email features...
+2026-01-10 09:56:40,936 - src.feature_engineering - INFO - Created 5 email features for 12 user-days
+2026-01-10 09:56:40,938 - src.feature_engineering - INFO - Processing psychometric features...
+2026-01-10 09:56:40,950 - src.feature_engineering - INFO - Prepared psychometric features for 2 users
+2026-01-10 09:56:40,970 - src.feature_engineering - INFO - Unified matrix shape: 12 rows × 14 features
+2026-01-10 09:56:40,984 - __main__ - INFO - Feature matrix saved -> data\features\behavioral_features.csv
+2026-01-10 09:56:40,985 - __main__ - INFO - Shape: (12, 14)
+2026-01-10 09:56:40,987 - __main__ - INFO - [3/5] Train / validation split
+2026-01-10 09:56:40,989 - __main__ - INFO - Training samples: 8
+2026-01-10 09:56:40,990 - __main__ - INFO - Validation samples: 4
+2026-01-10 09:56:40,990 - __main__ - INFO - [4/5] Building behavioral baselines
+2026-01-10 09:56:40,990 - src.distribution_builder - INFO - Building personal distributions...
+2026-01-10 09:56:40,999 - src.distribution_builder - INFO - Built personal baselines for 0 users
+2026-01-10 09:56:41,000 - src.distribution_builder - INFO - Building peer distributions using psychometric clustering...
+2026-01-10 09:56:44,335 - src.distribution_builder - INFO - Built peer baselines for 0 clusters
+2026-01-10 09:56:44,336 - src.distribution_builder - INFO - Building temporal (day-of-week) distributions...
+2026-01-10 09:56:44,338 - src.distribution_builder - INFO - Built temporal baselines for 0 days
+2026-01-10 09:56:44,338 - __main__ - INFO - Personal models: 0
+2026-01-10 09:56:44,339 - __main__ - INFO - Peer groups: 0
+2026-01-10 09:56:44,339 - __main__ - INFO - Temporal buckets: 0
+2026-01-10 09:56:44,339 - __main__ - INFO - [5/5] Saving models
+2026-01-10 09:56:44,341 - src.distribution_builder - INFO - Saved distributions to models\distributions\baselines.pkl
+2026-01-10 09:56:44,342 - __main__ - INFO - Models saved -> models\distributions\baselines.pkl
+2026-01-10 09:56:44,342 - __main__ - INFO - Running validation scoring
+2026-01-10 09:56:44,342 - src.anomaly_scorer - INFO - AnomalyScorer initialized
+2026-01-10 09:56:44,343 - src.anomaly_scorer - INFO - Scoring 4 observations...
+2026-01-10 09:56:44,350 - __main__ - INFO - Validation severity distribution:
+2026-01-10 09:56:44,354 - __main__ - INFO - severity
+MEDIUM    4
+2026-01-10 09:56:44,354 - __main__ - INFO - ============================================================
+2026-01-10 09:56:44,355 - __main__ - INFO - TRAINING COMPLETE
+2026-01-10 09:56:44,355 - __main__ - INFO - ============================================================
+2026-01-10 09:56:44,355 - __main__ - INFO - Next step: python inference.py
